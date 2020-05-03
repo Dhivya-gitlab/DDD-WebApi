@@ -1,0 +1,209 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\IBO_DotNet\\StudentEducationBoardService\\StudentEducationBoardService.Services\\StudentEducationBoardService.Services.csproj": {}
+  },
+  "projects": {
+    "C:\\IBO_DotNet\\StudentEducationBoardService\\StudentEducationBoardService.Data\\StudentEducationBoardService.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\IBO_DotNet\\StudentEducationBoardService\\StudentEducationBoardService.Data\\StudentEducationBoardService.Data.csproj",
+        "projectName": "StudentEducationBoardService.Data",
+        "projectPath": "C:\\IBO_DotNet\\StudentEducationBoardService\\StudentEducationBoardService.Data\\StudentEducationBoardService.Data.csproj",
+        "packagesPath": "C:\\Users\\cognizantdotnet05\\.nuget\\packages\\",
+        "outputPath": "C:\\IBO_DotNet\\StudentEducationBoardService\\StudentEducationBoardService.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\cognizantdotnet05\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\IBO_DotNet\\StudentEducationBoardService\\StudentEducationBoardService.Domain\\StudentEducationBoardService.Domain.csproj": {
+                "projectPath": "C:\\IBO_DotNet\\StudentEducationBoardService\\StudentEducationBoardService.Domain\\StudentEducationBoardService.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\IBO_DotNet\\StudentEducationBoardService\\StudentEducationBoardService.Domain\\StudentEducationBoardService.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\IBO_DotNet\\StudentEducationBoardService\\StudentEducationBoardService.Domain\\StudentEducationBoardService.Domain.csproj",
+        "projectName": "StudentEducationBoardService.Domain",
+        "projectPath": "C:\\IBO_DotNet\\StudentEducationBoardService\\StudentEducationBoardService.Domain\\StudentEducationBoardService.Domain.csproj",
+        "packagesPath": "C:\\Users\\cognizantdotnet05\\.nuget\\packages\\",
+        "outputPath": "C:\\IBO_DotNet\\StudentEducationBoardService\\StudentEducationBoardService.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\cognizantdotnet05\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\IBO_DotNet\\StudentEducationBoardService\\StudentEducationBoardService.Services\\StudentEducationBoardService.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\IBO_DotNet\\StudentEducationBoardService\\StudentEducationBoardService.Services\\StudentEducationBoardService.Services.csproj",
+        "projectName": "StudentEducationBoardService.Services",
+        "projectPath": "C:\\IBO_DotNet\\StudentEducationBoardService\\StudentEducationBoardService.Services\\StudentEducationBoardService.Services.csproj",
+        "packagesPath": "C:\\Users\\cognizantdotnet05\\.nuget\\packages\\",
+        "outputPath": "C:\\IBO_DotNet\\StudentEducationBoardService\\StudentEducationBoardService.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\cognizantdotnet05\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\IBO_DotNet\\StudentEducationBoardService\\StudentEducationBoardService.Data\\StudentEducationBoardService.Data.csproj": {
+                "projectPath": "C:\\IBO_DotNet\\StudentEducationBoardService\\StudentEducationBoardService.Data\\StudentEducationBoardService.Data.csproj"
+              },
+              "C:\\IBO_DotNet\\StudentEducationBoardService\\StudentEducationBoardService.Domain\\StudentEducationBoardService.Domain.csproj": {
+                "projectPath": "C:\\IBO_DotNet\\StudentEducationBoardService\\StudentEducationBoardService.Domain\\StudentEducationBoardService.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Abp": {
+              "target": "Package",
+              "version": "[5.6.0, )"
+            },
+            "Microsoft.AspNet.Mvc": {
+              "target": "Package",
+              "version": "[5.2.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
