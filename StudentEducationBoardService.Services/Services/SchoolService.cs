@@ -30,7 +30,10 @@ namespace StudentEducationBoardService.Services.Services
             {
                 SchoolName = createSchoolDto.SchoolName,
                 Country = createSchoolDto.Country,
-                CommunicationLanguage = createSchoolDto.CommunicationLanguage
+                CommunicationLanguage = createSchoolDto.CommunicationLanguage,
+                User = createSchoolDto.User,
+                Program = createSchoolDto.Program,
+                AssessmentPeriod = createSchoolDto.AssessmentPeriod
             };
 
             schoolUnitOfWork.Repository.Add(schoolToBeCreated);
@@ -56,7 +59,10 @@ namespace StudentEducationBoardService.Services.Services
                 SchoolId = school.SchoolId,
                 SchoolName = school.SchoolName,
                 Country = school.Country,
-                CommunicationLanguage = school.CommunicationLanguage
+                CommunicationLanguage = school.CommunicationLanguage,
+                User = school.User,
+                Program = school.Program,
+                AssessmentPeriod = school.AssessmentPeriod
             };
 
             return schoolRequested;
@@ -70,7 +76,10 @@ namespace StudentEducationBoardService.Services.Services
                 SchoolId = s.SchoolId,
                 SchoolName = s.SchoolName,
                 Country = s.Country,
-                CommunicationLanguage = s.CommunicationLanguage
+                CommunicationLanguage = s.CommunicationLanguage,
+                User = s.User,
+                Program = s.Program,
+                AssessmentPeriod = s.AssessmentPeriod
             }).ToList();
 
             return schoolList;
@@ -89,6 +98,9 @@ namespace StudentEducationBoardService.Services.Services
                 schoolToBeUpdated.SchoolName = updateSchoolDto.SchoolName;
                 schoolToBeUpdated.Country = updateSchoolDto.Country;
                 schoolToBeUpdated.CommunicationLanguage = updateSchoolDto.CommunicationLanguage;
+                schoolToBeUpdated.User = updateSchoolDto.User;
+                schoolToBeUpdated.Program = updateSchoolDto.Program;
+                schoolToBeUpdated.AssessmentPeriod = updateSchoolDto.AssessmentPeriod;
 
                 schoolUnitOfWork.Repository.Update(schoolToBeUpdated);
                 schoolUnitOfWork.Complete();

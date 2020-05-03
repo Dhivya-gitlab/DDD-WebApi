@@ -125,8 +125,6 @@ C:\IBO_DotNet\StudentEducationBoardService\StudetEducationBoardService.Api\bin\D
 C:\IBO_DotNet\StudentEducationBoardService\StudetEducationBoardService.Api\bin\Debug\netcoreapp3.1\StudentEducationBoardService.Data.pdb
 C:\IBO_DotNet\StudentEducationBoardService\StudetEducationBoardService.Api\bin\Debug\netcoreapp3.1\StudentEducationBoardService.Domain.pdb
 C:\IBO_DotNet\StudentEducationBoardService\StudetEducationBoardService.Api\bin\Debug\netcoreapp3.1\AutoMapper.dll
-C:\IBO_DotNet\StudentEducationBoardService\StudetEducationBoardService.Api\obj\Debug\netcoreapp3.1\StudentEducationBoardService.Api.csproj.CoreCompileInputs.cache
-C:\IBO_DotNet\StudentEducationBoardService\StudetEducationBoardService.Api\obj\Debug\netcoreapp3.1\StudentEducationBoardService.Api.MvcApplicationPartsAssemblyInfo.cache
 C:\IBO_DotNet\StudentEducationBoardService\StudetEducationBoardService.Api\bin\Debug\netcoreapp3.1\Abp.dll
 C:\IBO_DotNet\StudentEducationBoardService\StudetEducationBoardService.Api\bin\Debug\netcoreapp3.1\Castle.Core.dll
 C:\IBO_DotNet\StudentEducationBoardService\StudetEducationBoardService.Api\bin\Debug\netcoreapp3.1\Castle.Core.AsyncInterceptor.dll
@@ -152,3 +150,16 @@ C:\IBO_DotNet\StudentEducationBoardService\StudetEducationBoardService.Api\bin\D
 C:\IBO_DotNet\StudentEducationBoardService\StudetEducationBoardService.Api\bin\Debug\netcoreapp3.1\TimeZoneConverter.dll
 C:\IBO_DotNet\StudentEducationBoardService\StudetEducationBoardService.Api\bin\Debug\netcoreapp3.1\StudentEducationBoardService.Services.dll
 C:\IBO_DotNet\StudentEducationBoardService\StudetEducationBoardService.Api\bin\Debug\netcoreapp3.1\StudentEducationBoardService.Services.pdb
+C:\IBO_DotNet\StudentEducationBoardService\StudetEducationBoardService.Api\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\IBO_DotNet\StudentEducationBoardService\StudetEducationBoardService.Api\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+C:\IBO_DotNet\StudentEducationBoardService\StudetEducationBoardService.Api\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\IBO_DotNet\StudentEducationBoardService\StudetEducationBoardService.Api\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\IBO_DotNet\StudentEducationBoardService\StudetEducationBoardService.Api\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\IBO_DotNet\StudentEducationBoardService\StudetEducationBoardService.Api\bin\Debug\netcoreapp3.1\System.Net.Http.Formatting.dll
+C:\IBO_DotNet\StudentEducationBoardService\StudetEducationBoardService.Api\bin\Debug\netcoreapp3.1\System.Web.Http.dll
+C:\IBO_DotNet\StudentEducationBoardService\StudetEducationBoardService.Api\bin\Debug\netcoreapp3.1\System.Web.Http.WebHost.dll
+C:\IBO_DotNet\StudentEducationBoardService\StudetEducationBoardService.Api\bin\Debug\netcoreapp3.1\Swashbuckle.Core.dll
+C:\IBO_DotNet\StudentEducationBoardService\StudetEducationBoardService.Api\bin\Debug\netcoreapp3.1\WebActivatorEx.dll
+C:\IBO_DotNet\StudentEducationBoardService\StudetEducationBoardService.Api\obj\Debug\netcoreapp3.1\StudentEducationBoardService.Api.csproj.CoreCompileInputs.cache
+C:\IBO_DotNet\StudentEducationBoardService\StudetEducationBoardService.Api\obj\Debug\netcoreapp3.1\StudentEducationBoardService.Api.MvcApplicationPartsAssemblyInfo.cs
+C:\IBO_DotNet\StudentEducationBoardService\StudetEducationBoardService.Api\obj\Debug\netcoreapp3.1\StudentEducationBoardService.Api.MvcApplicationPartsAssemblyInfo.cache

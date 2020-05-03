@@ -8,7 +8,7 @@ namespace StudentEducationBoardService.Api.Mapping
     {
         public SchoolMappingProfile()
         {
-            CreateMap<SchoolDetails, SchoolDetailsDto>();
+            CreateMap<SchoolDetailsDto, SchoolDetails>();
             CreateMap<CreateSchool, CreateSchoolDto>();
             CreateMap<UpdateSchool, UpdateSchoolDto>();
         }
