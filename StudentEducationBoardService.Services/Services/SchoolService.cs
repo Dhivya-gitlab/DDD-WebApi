@@ -1,13 +1,10 @@
-﻿using Abp.Domain.Uow;
-using StudentEducationBoardService.Data;
-using StudentEducationBoardService.Domain.Models;
+﻿using StudentEducationBoardService.Domain.Models;
 using StudentEducationBoardService.Services.Dtos.SchoolDto;
 using StudentEducationBoardService.Services.ServicesInterface;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Web.Mvc;
+using System.Threading.Tasks;
 using IUnitOfWork = StudentEducationBoardService.Data.IUnitOfWork;
 
 namespace StudentEducationBoardService.Services.Services
@@ -51,9 +48,9 @@ namespace StudentEducationBoardService.Services.Services
             }
         }
 
-        public SchoolDetailsDto GetSchool(int schoolID)
+        public  SchoolDetailsDto GetSchool(int schoolID)
         {
-            School school = schoolUnitOfWork.Repository.GetById(schoolID);
+            var school =  schoolUnitOfWork.Repository.GetById(schoolID);
             SchoolDetailsDto schoolRequested = new SchoolDetailsDto()
             {
                 SchoolId = school.SchoolId,
@@ -68,10 +65,10 @@ namespace StudentEducationBoardService.Services.Services
             return schoolRequested;
         }
 
-        public List<SchoolDetailsDto> GetSchoolList()
+        public async Task<List<SchoolDetailsDto>> GetSchoolList()
         {
-            List<SchoolDetailsDto> schoolList = schoolUnitOfWork.Repository.GetAll()
-            .Select(s => new SchoolDetailsDto
+            var schoolList = await schoolUnitOfWork.Repository.GetAll();
+            return schoolList.Select(s => new SchoolDetailsDto
             {
                 SchoolId = s.SchoolId,
                 SchoolName = s.SchoolName,
@@ -81,18 +78,17 @@ namespace StudentEducationBoardService.Services.Services
                 Program = s.Program,
                 AssessmentPeriod = s.AssessmentPeriod
             }).ToList();
-
-            return schoolList;
         }
 
-        public void UpdateSchool(UpdateSchoolDto updateSchoolDto)
+        public void UpdateSchool(int id, UpdateSchoolDto updateSchoolDto)
         {
             if (updateSchoolDto == null)
             {
                 throw new ArgumentNullException(nameof(updateSchoolDto));
             }
 
-            School schoolToBeUpdated = schoolUnitOfWork.Repository.GetById(updateSchoolDto.SchoolId);
+            School schoolToBeUpdated = schoolUnitOfWork.Repository.GetById(id);
+
             if (schoolToBeUpdated != null)
             {
                 schoolToBeUpdated.SchoolName = updateSchoolDto.SchoolName;

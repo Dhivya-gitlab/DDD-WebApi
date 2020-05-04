@@ -28,9 +28,9 @@ namespace StudentEducationBoardService.Api.Controllers
 
         // GET: api/School
         [HttpGet]
-        public IEnumerable<SchoolDetails> Get()
+        public async Task<IEnumerable<SchoolDetails>> Get()
         {
-            List<SchoolDetailsDto> schoolDetailsDto = _schoolService.GetSchoolList();
+            List<SchoolDetailsDto> schoolDetailsDto = await _schoolService.GetSchoolList();
             List<SchoolDetails> schoolDetail = _mapper.Map<List<SchoolDetails>>(schoolDetailsDto);
             return schoolDetail;
         }
@@ -57,7 +57,7 @@ namespace StudentEducationBoardService.Api.Controllers
         public void Put(int id, [FromBody] UpdateSchool schoolToUpdate)
         {
             UpdateSchoolDto schoolToBeUpdated = _mapper.Map<UpdateSchoolDto>(schoolToUpdate);
-            _schoolService.UpdateSchool(schoolToBeUpdated);
+            _schoolService.UpdateSchool(id, schoolToBeUpdated);
         }
 
         // DELETE: api/ApiWithActions/5

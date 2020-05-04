@@ -9,7 +9,7 @@ namespace StudentEducationBoardService.Api.AppModels
     public class CreateSchool
     {
         [Required]
-        [MaxLength(20)]
+        [MaxLength(50)]
         [MinLength(2)]
         public string SchoolName { get; set; }
 
