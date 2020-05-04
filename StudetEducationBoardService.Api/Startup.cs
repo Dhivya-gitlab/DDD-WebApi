@@ -11,6 +11,7 @@ using StudentEducationBoardService.Data;
 using StudentEducationBoardService.Data.Repositories;
 using StudentEducationBoardService.Services.Services;
 using StudentEducationBoardService.Services.ServicesInterface;
+using IHostingEnvironment = Microsoft.AspNetCore.Hosting.IHostingEnvironment;
 
 namespace StudentEducationBoardService.Api
 {
@@ -19,6 +20,7 @@ namespace StudentEducationBoardService.Api
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
+            //Configuration = new ConfigurationBinder().AddJsonFile("appsettings.json").Build();
         }
 
         public IConfiguration Configuration { get; }
@@ -26,10 +28,18 @@ namespace StudentEducationBoardService.Api
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            //services.AddDbContextPool<StudentEducationBoardDbContext>(options =>
+            //{
+            //options.UseSqlServer(@"Data Source = DNETAZ15; Initial Catalog = EducationBoard; Integrated Security = true");
+            //});
             services.AddDbContextPool<StudentEducationBoardDbContext>(options =>
             {
-                options.UseSqlServer(@"Data Source = DNETAZ15; Initial Catalog = EducationBoard; Integrated Security = true");
+                options.UseSqlServer(Configuration["Data:ConectionStrings:azureDbConnection"]);
             });
+
+            //Automatically perform databse migration
+            //services.BuildServiceProvider().GetService<StudentEducationBoardDbContext>().Database.Migrate();
+
             services.AddScoped<ISchoolRepository, SchoolRepository>();
             services.AddScoped<ISchoolService, SchoolService>();
             services.AddScoped<IUnitOfWork, UnitOfWork>();

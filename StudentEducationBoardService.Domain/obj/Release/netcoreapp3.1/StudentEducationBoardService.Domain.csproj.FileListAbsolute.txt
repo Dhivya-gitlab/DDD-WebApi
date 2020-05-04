@@ -1,0 +1,9 @@
+C:\IBO_DotNet\StudentEducationBoardService\StudentEducationBoardService.Domain\bin\Release\netcoreapp3.1\StudentEducationBoardService.Domain.deps.json
+C:\IBO_DotNet\StudentEducationBoardService\StudentEducationBoardService.Domain\bin\Release\netcoreapp3.1\StudentEducationBoardService.Domain.dll
+C:\IBO_DotNet\StudentEducationBoardService\StudentEducationBoardService.Domain\bin\Release\netcoreapp3.1\StudentEducationBoardService.Domain.pdb
+C:\IBO_DotNet\StudentEducationBoardService\StudentEducationBoardService.Domain\obj\Release\netcoreapp3.1\StudentEducationBoardService.Domain.csprojAssemblyReference.cache
+C:\IBO_DotNet\StudentEducationBoardService\StudentEducationBoardService.Domain\obj\Release\netcoreapp3.1\StudentEducationBoardService.Domain.csproj.CoreCompileInputs.cache
+C:\IBO_DotNet\StudentEducationBoardService\StudentEducationBoardService.Domain\obj\Release\netcoreapp3.1\StudentEducationBoardService.Domain.AssemblyInfoInputs.cache
+C:\IBO_DotNet\StudentEducationBoardService\StudentEducationBoardService.Domain\obj\Release\netcoreapp3.1\StudentEducationBoardService.Domain.AssemblyInfo.cs
+C:\IBO_DotNet\StudentEducationBoardService\StudentEducationBoardService.Domain\obj\Release\netcoreapp3.1\StudentEducationBoardService.Domain.dll
+C:\IBO_DotNet\StudentEducationBoardService\StudentEducationBoardService.Domain\obj\Release\netcoreapp3.1\StudentEducationBoardService.Domain.pdb
