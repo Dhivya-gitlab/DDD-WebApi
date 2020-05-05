@@ -1,11 +1,11 @@
-﻿using StudentEducationBoardService.Domain.Models;
-using StudentEducationBoardService.Services.Dtos.SchoolDto;
-using StudentEducationBoardService.Services.ServicesInterface;
+﻿using StudentEducationBoardService.Domain;
+using StudentEducationBoardService.Domain.Models;
+using StudentEducationBoardService.Domain.SchoolDto.Dtos.SchoolDto;
+using StudentEducationBoardService.Domain.Services;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using IUnitOfWork = StudentEducationBoardService.Data.IUnitOfWork;
 
 namespace StudentEducationBoardService.Services.Services
 {

@@ -2,12 +2,11 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
-using System.Text;
 using System.Threading.Tasks;
 
-namespace StudentEducationBoardService.Data.Repositories
+namespace StudentEducationBoardService.Domain.Repositories
 {
-   public interface IRepository<T> where T : class
+    public interface IRepository<T> where T : class
     {
         T GetById(int id);
         Task<IQueryable<T>> GetAll();

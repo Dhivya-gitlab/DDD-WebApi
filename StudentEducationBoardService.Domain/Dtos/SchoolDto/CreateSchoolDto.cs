@@ -2,12 +2,10 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace StudentEducationBoardService.Services.Dtos.SchoolDto
+namespace StudentEducationBoardService.Domain.SchoolDto.Dtos.SchoolDto
 {
-   public class SchoolDetailsDto
+   public class CreateSchoolDto
     {
-        public int SchoolId { get; set; }
-
         public string SchoolName { get; set; }
 
         public string Country { get; set; }

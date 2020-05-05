@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace StudentEducationBoardService.Services.Dtos.SchoolDto
+namespace StudentEducationBoardService.Domain.SchoolDto.Dtos.SchoolDto
 {
     public class UpdateSchoolDto
     {

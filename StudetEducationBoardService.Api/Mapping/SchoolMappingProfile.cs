@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
 using StudentEducationBoardService.Api.AppModels;
-using StudentEducationBoardService.Services.Dtos.SchoolDto;
+using StudentEducationBoardService.Domain.SchoolDto.Dtos.SchoolDto;
 
 namespace StudentEducationBoardService.Api.Mapping
 {

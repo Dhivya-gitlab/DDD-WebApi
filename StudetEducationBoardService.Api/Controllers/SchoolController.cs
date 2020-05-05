@@ -1,15 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using AutoMapper;
-using Microsoft.AspNetCore.Http;
+﻿using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
 using StudentEducationBoardService.Api.AppModels;
-using StudentEducationBoardService.Data;
-using StudentEducationBoardService.Domain.Models;
-using StudentEducationBoardService.Services.Dtos.SchoolDto;
-using StudentEducationBoardService.Services.ServicesInterface;
+using StudentEducationBoardService.Domain.SchoolDto.Dtos.SchoolDto;
+using StudentEducationBoardService.Domain.Services;
+using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace StudentEducationBoardService.Api.Controllers
 {

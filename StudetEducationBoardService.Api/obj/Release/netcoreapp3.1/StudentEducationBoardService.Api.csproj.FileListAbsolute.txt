@@ -163,3 +163,4 @@ C:\IBO_DotNet\StudentEducationBoardService\StudetEducationBoardService.Api\obj\R
 C:\IBO_DotNet\StudentEducationBoardService\StudetEducationBoardService.Api\obj\Release\netcoreapp3.1\StudentEducationBoardService.Api.dll
 C:\IBO_DotNet\StudentEducationBoardService\StudetEducationBoardService.Api\obj\Release\netcoreapp3.1\StudentEducationBoardService.Api.pdb
 C:\IBO_DotNet\StudentEducationBoardService\StudetEducationBoardService.Api\obj\Release\netcoreapp3.1\StudentEducationBoardService.Api.genruntimeconfig.cache
+C:\IBO_DotNet\StudentEducationBoardService\StudetEducationBoardService.Api\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll

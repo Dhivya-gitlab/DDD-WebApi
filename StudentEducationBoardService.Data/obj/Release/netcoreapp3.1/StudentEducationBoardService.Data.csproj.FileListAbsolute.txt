@@ -10,3 +10,6 @@ C:\IBO_DotNet\StudentEducationBoardService\StudentEducationBoardService.Data\obj
 C:\IBO_DotNet\StudentEducationBoardService\StudentEducationBoardService.Data\obj\Release\netcoreapp3.1\StudentEducationBoardService.Data.csproj.CopyComplete
 C:\IBO_DotNet\StudentEducationBoardService\StudentEducationBoardService.Data\obj\Release\netcoreapp3.1\StudentEducationBoardService.Data.dll
 C:\IBO_DotNet\StudentEducationBoardService\StudentEducationBoardService.Data\obj\Release\netcoreapp3.1\StudentEducationBoardService.Data.pdb
+C:\IBO_DotNet\StudentEducationBoardService\StudentEducationBoardService.Data\bin\Release\netcoreapp3.1\StudentEducationBoardService.Data.runtimeconfig.json
+C:\IBO_DotNet\StudentEducationBoardService\StudentEducationBoardService.Data\bin\Release\netcoreapp3.1\StudentEducationBoardService.Data.runtimeconfig.dev.json
+C:\IBO_DotNet\StudentEducationBoardService\StudentEducationBoardService.Data\obj\Release\netcoreapp3.1\StudentEducationBoardService.Data.genruntimeconfig.cache

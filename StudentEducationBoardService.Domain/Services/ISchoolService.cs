@@ -1,11 +1,10 @@
-﻿using StudentEducationBoardService.Services.Dtos.SchoolDto;
+﻿using StudentEducationBoardService.Domain.SchoolDto.Dtos.SchoolDto;
 using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
-using System.Web.Mvc;
 
-namespace StudentEducationBoardService.Services.ServicesInterface
+namespace StudentEducationBoardService.Domain.Services
 {
     public interface ISchoolService
     {
