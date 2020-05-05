@@ -10,8 +10,12 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\StudentEducationBoardService.Data\StudentEducationBoardService.Data.csproj" />
-    <ProjectReference Include="..\StudentEducationBoardService.Domain\StudentEducationBoardService.Domain.csproj" />
+    <ProjectReference Include="..\StudentEducationBoardService.Data\StudentEducationBoardService.Data.csproj">
+      <Private>true</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\StudentEducationBoardService.Domain\StudentEducationBoardService.Domain.csproj">
+      <Private>true</Private>
+    </ProjectReference>
   </ItemGroup>
 
 </Project>

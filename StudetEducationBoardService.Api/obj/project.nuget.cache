@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "vdLFMXB2wOItLPRPwxikkZRLLEKXc+vW0ruP66m8p2vo27gWfBKAp6/10yqzKpxS92W1T65iY8C6Wt5Au3B4VQ==",
+  "dgSpecHash": "FtMVcxQD9bs4jE7j6qLOS2A5Afbx+H9kZjFuZUmJtsSsNnSL4cWWBw8fesiTUqn5hNBqVDvKlZ8Fho6s6Bg80w==",
   "success": true,
   "projectFilePath": "C:\\IBO_DotNet\\StudentEducationBoardService\\StudetEducationBoardService.Api\\StudentEducationBoardService.Api.csproj",
   "expectedPackageFiles": [
@@ -30,12 +30,13 @@
     "C:\\Users\\cognizantdotnet05\\.nuget\\packages\\microsoft.codeanalysis.csharp.workspaces\\3.3.1\\microsoft.codeanalysis.csharp.workspaces.3.3.1.nupkg.sha512",
     "C:\\Users\\cognizantdotnet05\\.nuget\\packages\\microsoft.codeanalysis.razor\\3.1.0\\microsoft.codeanalysis.razor.3.1.0.nupkg.sha512",
     "C:\\Users\\cognizantdotnet05\\.nuget\\packages\\microsoft.codeanalysis.workspaces.common\\3.3.1\\microsoft.codeanalysis.workspaces.common.3.3.1.nupkg.sha512",
-    "C:\\Users\\cognizantdotnet05\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\cognizantdotnet05\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\cognizantdotnet05\\.nuget\\packages\\microsoft.data.sqlclient\\1.0.19269.1\\microsoft.data.sqlclient.1.0.19269.1.nupkg.sha512",
     "C:\\Users\\cognizantdotnet05\\.nuget\\packages\\microsoft.dotnet.platformabstractions\\1.1.2\\microsoft.dotnet.platformabstractions.1.1.2.nupkg.sha512",
     "C:\\Users\\cognizantdotnet05\\.nuget\\packages\\microsoft.entityframeworkcore\\3.1.3\\microsoft.entityframeworkcore.3.1.3.nupkg.sha512",
     "C:\\Users\\cognizantdotnet05\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\3.1.3\\microsoft.entityframeworkcore.abstractions.3.1.3.nupkg.sha512",
     "C:\\Users\\cognizantdotnet05\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\3.1.3\\microsoft.entityframeworkcore.analyzers.3.1.3.nupkg.sha512",
+    "C:\\Users\\cognizantdotnet05\\.nuget\\packages\\microsoft.entityframeworkcore.design\\3.1.3\\microsoft.entityframeworkcore.design.3.1.3.nupkg.sha512",
     "C:\\Users\\cognizantdotnet05\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\3.1.3\\microsoft.entityframeworkcore.relational.3.1.3.nupkg.sha512",
     "C:\\Users\\cognizantdotnet05\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\3.1.3\\microsoft.entityframeworkcore.sqlserver.3.1.3.nupkg.sha512",
     "C:\\Users\\cognizantdotnet05\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
