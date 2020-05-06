@@ -41,10 +41,11 @@ namespace StudentEducationBoardService.Api.Controllers
 
         // POST: api/School
         [HttpPost]
-        public void Post([FromBody] CreateSchool schoolToBeCreated)
+        public IActionResult Post([FromBody] CreateSchool schoolToBeCreated)
         {
             CreateSchoolDto createSchool = _mapper.Map<CreateSchoolDto>(schoolToBeCreated);
             _schoolService.CreateSchool(createSchool);
+            return Ok("School created successfully");
         }
 
         // PUT: api/School/5
