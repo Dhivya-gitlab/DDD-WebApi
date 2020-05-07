@@ -43,7 +43,7 @@ namespace StudentEducationBoardService.Api
                 });
             }
 
-            services.AddScoped<ISchoolRepository, SchoolRepository>();
+            //services.AddScoped<ISchoolRepository, SchoolRepository>();
             services.AddScoped<ISchoolService, SchoolService>();
             services.AddScoped<IUnitOfWork, UnitOfWork>();
             services.AddControllers();

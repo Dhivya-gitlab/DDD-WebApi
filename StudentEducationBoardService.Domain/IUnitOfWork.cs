@@ -5,7 +5,7 @@ namespace StudentEducationBoardService.Domain
 {
     public interface IUnitOfWork : IDisposable
     {
-        public ISchoolRepository Repository { get; }
+        public ISchoolRepository Repository { get; set; }
         int Complete();
     }
 }

@@ -1,20 +1,18 @@
-﻿using StudentEducationBoardService.Domain.SchoolDto.Dtos.SchoolDto;
-using System;
+﻿using StudentEducationBoardService.Domain.Models;
 using System.Collections.Generic;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace StudentEducationBoardService.Domain.Services
 {
     public interface ISchoolService
     {
-        Task<List<SchoolDetailsDto>> GetSchoolList();
+        Task<List<School>> GetSchoolList();
 
-        void CreateSchool(CreateSchoolDto createSchoolDto);
+        void CreateSchool(School createSchool);
 
-        SchoolDetailsDto GetSchool(int schoolID);
+        School GetSchool(int schoolID);
 
-        void UpdateSchool(int id, UpdateSchoolDto updateSchoolDto);
+        void UpdateSchool(int id, School updateSchool);
 
         void DeleteSchool(int schoolId);
 

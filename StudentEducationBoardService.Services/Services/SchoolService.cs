@@ -1,6 +1,5 @@
 ﻿using StudentEducationBoardService.Domain;
 using StudentEducationBoardService.Domain.Models;
-using StudentEducationBoardService.Domain.SchoolDto.Dtos.SchoolDto;
 using StudentEducationBoardService.Domain.Services;
 using System;
 using System.Collections.Generic;
@@ -16,24 +15,24 @@ namespace StudentEducationBoardService.Services.Services
         {
             schoolUnitOfWork = unitOfWork;
         }
-        public void CreateSchool(CreateSchoolDto createSchoolDto)
+        public void CreateSchool(School createSchool)
         {
-            if (createSchoolDto == null)
+            if (createSchool == null)
             {
-                throw new ArgumentNullException(nameof(createSchoolDto));
+                throw new ArgumentNullException(nameof(createSchool));
             }
 
-            School schoolToBeCreated = new School()
-            {
-                SchoolName = createSchoolDto.SchoolName,
-                Country = createSchoolDto.Country,
-                CommunicationLanguage = createSchoolDto.CommunicationLanguage,
-                User = createSchoolDto.User,
-                Program = createSchoolDto.Program,
-                AssessmentPeriod = createSchoolDto.AssessmentPeriod
-            };
+            //School schoolToBeCreated = new School()
+            //{
+            //    SchoolName = createSchoolDto.SchoolName,
+            //    Country = createSchoolDto.Country,
+            //    CommunicationLanguage = createSchoolDto.CommunicationLanguage,
+            //    User = createSchoolDto.User,
+            //    Program = createSchoolDto.Program,
+            //    AssessmentPeriod = createSchoolDto.AssessmentPeriod
+            //};
 
-            schoolUnitOfWork.Repository.Add(schoolToBeCreated);
+            schoolUnitOfWork.Repository.Add(createSchool);
             schoolUnitOfWork.Complete();
         }
 
@@ -48,55 +47,56 @@ namespace StudentEducationBoardService.Services.Services
             }
         }
 
-        public  SchoolDetailsDto GetSchool(int schoolID)
+        public  School GetSchool(int schoolID)
         {
             var school =  schoolUnitOfWork.Repository.GetById(schoolID);
-            SchoolDetailsDto schoolRequested = new SchoolDetailsDto()
-            {
-                SchoolId = school.SchoolId,
-                SchoolName = school.SchoolName,
-                Country = school.Country,
-                CommunicationLanguage = school.CommunicationLanguage,
-                User = school.User,
-                Program = school.Program,
-                AssessmentPeriod = school.AssessmentPeriod
-            };
+            //School schoolRequested = new SchoolDetailsDto()
+            //{
+            //    SchoolId = school.SchoolId,
+            //    SchoolName = school.SchoolName,
+            //    Country = school.Country,
+            //    CommunicationLanguage = school.CommunicationLanguage,
+            //    User = school.User,
+            //    Program = school.Program,
+            //    AssessmentPeriod = school.AssessmentPeriod
+            //};
 
-            return schoolRequested;
+            return school;
         }
 
-        public async Task<List<SchoolDetailsDto>> GetSchoolList()
+        public async Task<List<School>> GetSchoolList()
         {
             var schoolList = await schoolUnitOfWork.Repository.GetAll();
-            return schoolList.Select(s => new SchoolDetailsDto
-            {
-                SchoolId = s.SchoolId,
-                SchoolName = s.SchoolName,
-                Country = s.Country,
-                CommunicationLanguage = s.CommunicationLanguage,
-                User = s.User,
-                Program = s.Program,
-                AssessmentPeriod = s.AssessmentPeriod
-            }).ToList();
+            return schoolList.ToList();
+            //return schoolList.Select(s => new SchoolDetailsDto
+            //{
+            //    SchoolId = s.SchoolId,
+            //    SchoolName = s.SchoolName,
+            //    Country = s.Country,
+            //    CommunicationLanguage = s.CommunicationLanguage,
+            //    User = s.User,
+            //    Program = s.Program,
+            //    AssessmentPeriod = s.AssessmentPeriod
+            //}).ToList();
         }
 
-        public void UpdateSchool(int id, UpdateSchoolDto updateSchoolDto)
+        public void UpdateSchool(int id, School updateSchool)
         {
-            if (updateSchoolDto == null)
+            if (updateSchool == null)
             {
-                throw new ArgumentNullException(nameof(updateSchoolDto));
+                throw new ArgumentNullException(nameof(updateSchool));
             }
 
             School schoolToBeUpdated = schoolUnitOfWork.Repository.GetById(id);
 
             if (schoolToBeUpdated != null)
             {
-                schoolToBeUpdated.SchoolName = updateSchoolDto.SchoolName;
-                schoolToBeUpdated.Country = updateSchoolDto.Country;
-                schoolToBeUpdated.CommunicationLanguage = updateSchoolDto.CommunicationLanguage;
-                schoolToBeUpdated.User = updateSchoolDto.User;
-                schoolToBeUpdated.Program = updateSchoolDto.Program;
-                schoolToBeUpdated.AssessmentPeriod = updateSchoolDto.AssessmentPeriod;
+                schoolToBeUpdated.SchoolName = updateSchool.SchoolName;
+                schoolToBeUpdated.Country = updateSchool.Country;
+                schoolToBeUpdated.CommunicationLanguage = updateSchool.CommunicationLanguage;
+                schoolToBeUpdated.User = updateSchool.User;
+                schoolToBeUpdated.Program = updateSchool.Program;
+                schoolToBeUpdated.AssessmentPeriod = updateSchool.AssessmentPeriod;
 
                 schoolUnitOfWork.Repository.Update(schoolToBeUpdated);
                 schoolUnitOfWork.Complete();

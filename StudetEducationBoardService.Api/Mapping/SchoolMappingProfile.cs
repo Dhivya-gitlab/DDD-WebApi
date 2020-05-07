@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
 using StudentEducationBoardService.Api.AppModels;
-using StudentEducationBoardService.Domain.SchoolDto.Dtos.SchoolDto;
+using StudentEducationBoardService.Domain.Models;
 
 namespace StudentEducationBoardService.Api.Mapping
 {
@@ -8,9 +8,11 @@ namespace StudentEducationBoardService.Api.Mapping
     {
         public SchoolMappingProfile()
         {
-            CreateMap<SchoolDetailsDto, SchoolDetails>();
-            CreateMap<CreateSchool, CreateSchoolDto>();
-            CreateMap<UpdateSchool, UpdateSchoolDto>();
+            CreateMap<School, SchoolDetailsDto>();
+            CreateMap<CreateSchoolDto, School>();
+            CreateMap<School, CreateSchoolDto>();
+            CreateMap<UpdateSchoolDto, School>();
+            CreateMap<School, UpdateSchoolDto>();
         }
     }
 }
