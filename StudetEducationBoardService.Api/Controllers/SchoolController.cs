@@ -25,8 +25,8 @@ namespace StudentEducationBoardService.Api.Controllers
         [HttpGet]
         public async Task<IEnumerable<SchoolDetailsDto>> Get()
         {
-            List<School> schoolDetails = await _schoolService.GetSchoolList();
-            List<SchoolDetailsDto> schoolDetail = _mapper.Map<List<SchoolDetailsDto>>(schoolDetails);
+            List<School> schoolDetailsCol = await _schoolService.GetSchoolList();
+            List<SchoolDetailsDto> schoolDetail = _mapper.Map<List<SchoolDetailsDto>>(schoolDetailsCol);
             return schoolDetail;
         }
 
@@ -38,6 +38,15 @@ namespace StudentEducationBoardService.Api.Controllers
             SchoolDetailsDto school = _mapper.Map<SchoolDetailsDto>(schoolDetailsDto);
             return school;
         }
+
+        //// GET: api/School/5
+        //[HttpGet("{id}", Name = "GetById")]
+        //public SchoolDetailsDto GetById(int id)
+        //{
+        //    School schoolDetailsDto = _schoolService.GetSchool(id);
+        //    SchoolDetailsDto school = _mapper.Map<SchoolDetailsDto>(schoolDetailsDto);
+        //    return school;
+        //}
 
         // POST: api/School
         [HttpPost]
