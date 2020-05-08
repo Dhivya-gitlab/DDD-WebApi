@@ -4931,11 +4931,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\IBO_DotNet\\StudentEducationBoardService\\StudentEducationBoardService.Domain\\StudentEducationBoardService.Domain.csproj",
+      "projectUniqueName": "C:\\IBO_NewAPI\\StudentEducationBoardService.Domain\\StudentEducationBoardService.Domain.csproj",
       "projectName": "StudentEducationBoardService.Domain",
-      "projectPath": "C:\\IBO_DotNet\\StudentEducationBoardService\\StudentEducationBoardService.Domain\\StudentEducationBoardService.Domain.csproj",
+      "projectPath": "C:\\IBO_NewAPI\\StudentEducationBoardService.Domain\\StudentEducationBoardService.Domain.csproj",
       "packagesPath": "C:\\Users\\cognizantdotnet05\\.nuget\\packages\\",
-      "outputPath": "C:\\IBO_DotNet\\StudentEducationBoardService\\StudentEducationBoardService.Domain\\obj\\",
+      "outputPath": "C:\\IBO_NewAPI\\StudentEducationBoardService.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"

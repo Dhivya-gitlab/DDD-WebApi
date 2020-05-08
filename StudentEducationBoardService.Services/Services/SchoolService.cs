@@ -1,39 +1,44 @@
-﻿using Abp.Domain.Uow;
-using StudentEducationBoardService.Data;
+﻿using Microsoft.Extensions.Caching.Distributed;
+using StudentEducationBoardService.Domain;
 using StudentEducationBoardService.Domain.Models;
-using StudentEducationBoardService.Services.Dtos.SchoolDto;
-using StudentEducationBoardService.Services.ServicesInterface;
+using StudentEducationBoardService.Domain.Services;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Web.Mvc;
-using IUnitOfWork = StudentEducationBoardService.Data.IUnitOfWork;
+using System.Text.Json;
+using System.Threading.Tasks;
+using JsonSerializer = System.Text.Json.JsonSerializer;
 
 namespace StudentEducationBoardService.Services.Services
 {
     public class SchoolService : ISchoolService
     {
         private IUnitOfWork schoolUnitOfWork;
-        public SchoolService(IUnitOfWork unitOfWork)
+        private readonly IDistributedCache _redisCache;
+
+        public SchoolService(IUnitOfWork unitOfWork, IDistributedCache redisCache)
         {
             schoolUnitOfWork = unitOfWork;
+            _redisCache = redisCache;
         }
-        public void CreateSchool(CreateSchoolDto createSchoolDto)
+        public void CreateSchool(School createSchool)
         {
-            if (createSchoolDto == null)
+            if (createSchool == null)
             {
-                throw new ArgumentNullException(nameof(createSchoolDto));
+                throw new ArgumentNullException(nameof(createSchool));
             }
 
-            School schoolToBeCreated = new School()
-            {
-                SchoolName = createSchoolDto.SchoolName,
-                Country = createSchoolDto.Country,
-                CommunicationLanguage = createSchoolDto.CommunicationLanguage
-            };
+            //School schoolToBeCreated = new School()
+            //{
+            //    SchoolName = createSchoolDto.SchoolName,
+            //    Country = createSchoolDto.Country,
+            //    CommunicationLanguage = createSchoolDto.CommunicationLanguage,
+            //    User = createSchoolDto.User,
+            //    Program = createSchoolDto.Program,
+            //    AssessmentPeriod = createSchoolDto.AssessmentPeriod
+            //};
 
-            schoolUnitOfWork.Repository.Add(schoolToBeCreated);
+            schoolUnitOfWork.Repository.Add(createSchool);
             schoolUnitOfWork.Complete();
         }
 
@@ -48,47 +53,73 @@ namespace StudentEducationBoardService.Services.Services
             }
         }
 
-        public SchoolDetailsDto GetSchool(int schoolID)
+        public School GetSchool(int schoolID)
         {
-            School school = schoolUnitOfWork.Repository.GetById(schoolID);
-            SchoolDetailsDto schoolRequested = new SchoolDetailsDto()
+            var school = schoolUnitOfWork.Repository.GetById(schoolID);
+            //School schoolRequested = new SchoolDetailsDto()
+            //{
+            //    SchoolId = school.SchoolId,
+            //    SchoolName = school.SchoolName,
+            //    Country = school.Country,
+            //    CommunicationLanguage = school.CommunicationLanguage,
+            //    User = school.User,
+            //    Program = school.Program,
+            //    AssessmentPeriod = school.AssessmentPeriod
+            //};
+
+            return school;
+        }
+
+        public async Task<List<School>> GetSchoolList()
+        {
+            string cachedSchoolsDetail = await _redisCache.GetStringAsync("schools");
+
+            if (cachedSchoolsDetail == null || string.IsNullOrEmpty(cachedSchoolsDetail))
             {
-                SchoolId = school.SchoolId,
-                SchoolName = school.SchoolName,
-                Country = school.Country,
-                CommunicationLanguage = school.CommunicationLanguage
+                var schoolList = await schoolUnitOfWork.Repository.GetAll();
+                cachedSchoolsDetail = JsonSerializer.Serialize<List<School>>(schoolList.ToList());
+                var options = new DistributedCacheEntryOptions();
+                options.SetAbsoluteExpiration(DateTimeOffset.Now.AddMinutes(1));
+                await _redisCache.SetStringAsync("schools", cachedSchoolsDetail);
+            }
+            JsonSerializerOptions opt = new JsonSerializerOptions()
+            {
+                PropertyNameCaseInsensitive = true
             };
 
-            return schoolRequested;
+            var schoolListCol = JsonSerializer.Deserialize<List<School>>(cachedSchoolsDetail, opt);
+            return schoolListCol.ToList();
+            //var schoolList = await schoolUnitOfWork.Repository.GetAll();
+            //return schoolList.ToList();
+            //return schoolList.Select(s => new SchoolDetailsDto
+            //{
+            //    SchoolId = s.SchoolId,
+            //    SchoolName = s.SchoolName,
+            //    Country = s.Country,
+            //    CommunicationLanguage = s.CommunicationLanguage,
+            //    User = s.User,
+            //    Program = s.Program,
+            //    AssessmentPeriod = s.AssessmentPeriod
+            //}).ToList();
         }
 
-        public List<SchoolDetailsDto> GetSchoolList()
+        public void UpdateSchool(int id, School updateSchool)
         {
-            List<SchoolDetailsDto> schoolList = schoolUnitOfWork.Repository.GetAll()
-            .Select(s => new SchoolDetailsDto
+            if (updateSchool == null)
             {
-                SchoolId = s.SchoolId,
-                SchoolName = s.SchoolName,
-                Country = s.Country,
-                CommunicationLanguage = s.CommunicationLanguage
-            }).ToList();
-
-            return schoolList;
-        }
-
-        public void UpdateSchool(UpdateSchoolDto updateSchoolDto)
-        {
-            if (updateSchoolDto == null)
-            {
-                throw new ArgumentNullException(nameof(updateSchoolDto));
+                throw new ArgumentNullException(nameof(updateSchool));
             }
 
-            School schoolToBeUpdated = schoolUnitOfWork.Repository.GetById(updateSchoolDto.SchoolId);
+            School schoolToBeUpdated = schoolUnitOfWork.Repository.GetById(id);
+
             if (schoolToBeUpdated != null)
             {
-                schoolToBeUpdated.SchoolName = updateSchoolDto.SchoolName;
-                schoolToBeUpdated.Country = updateSchoolDto.Country;
-                schoolToBeUpdated.CommunicationLanguage = updateSchoolDto.CommunicationLanguage;
+                schoolToBeUpdated.SchoolName = updateSchool.SchoolName;
+                schoolToBeUpdated.Country = updateSchool.Country;
+                schoolToBeUpdated.CommunicationLanguage = updateSchool.CommunicationLanguage;
+                schoolToBeUpdated.User = updateSchool.User;
+                schoolToBeUpdated.Program = updateSchool.Program;
+                schoolToBeUpdated.AssessmentPeriod = updateSchool.AssessmentPeriod;
 
                 schoolUnitOfWork.Repository.Update(schoolToBeUpdated);
                 schoolUnitOfWork.Complete();

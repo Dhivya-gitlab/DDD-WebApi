@@ -1,8 +1,8 @@
 C:\IBO_DotNet\StudentEducationBoardService\StudentEducationBoardService.Domain\bin\Debug\netcoreapp3.1\StudentEducationBoardService.Domain.deps.json
 C:\IBO_DotNet\StudentEducationBoardService\StudentEducationBoardService.Domain\bin\Debug\netcoreapp3.1\StudentEducationBoardService.Domain.dll
 C:\IBO_DotNet\StudentEducationBoardService\StudentEducationBoardService.Domain\bin\Debug\netcoreapp3.1\StudentEducationBoardService.Domain.pdb
+C:\IBO_DotNet\StudentEducationBoardService\StudentEducationBoardService.Domain\obj\Debug\netcoreapp3.1\StudentEducationBoardService.Domain.csproj.CoreCompileInputs.cache
 C:\IBO_DotNet\StudentEducationBoardService\StudentEducationBoardService.Domain\obj\Debug\netcoreapp3.1\StudentEducationBoardService.Domain.AssemblyInfoInputs.cache
 C:\IBO_DotNet\StudentEducationBoardService\StudentEducationBoardService.Domain\obj\Debug\netcoreapp3.1\StudentEducationBoardService.Domain.AssemblyInfo.cs
 C:\IBO_DotNet\StudentEducationBoardService\StudentEducationBoardService.Domain\obj\Debug\netcoreapp3.1\StudentEducationBoardService.Domain.dll
 C:\IBO_DotNet\StudentEducationBoardService\StudentEducationBoardService.Domain\obj\Debug\netcoreapp3.1\StudentEducationBoardService.Domain.pdb
-C:\IBO_DotNet\StudentEducationBoardService\StudentEducationBoardService.Domain\obj\Debug\netcoreapp3.1\StudentEducationBoardService.Domain.csproj.CoreCompileInputs.cache

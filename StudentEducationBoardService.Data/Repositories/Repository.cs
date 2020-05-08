@@ -1,9 +1,10 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using StudentEducationBoardService.Domain.Repositories;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
-using System.Text;
+using System.Threading.Tasks;
 
 namespace StudentEducationBoardService.Data.Repositories
 {
@@ -32,14 +33,15 @@ namespace StudentEducationBoardService.Data.Repositories
             return _entities.Where(predicate);
         }
 
-        public IQueryable<T> GetAll()
+        public async Task<IQueryable<T>> GetAll()
         {
-            return _entities.AsQueryable<T>();
+            var allEntities = await _entities.ToListAsync();
+            return allEntities.AsQueryable();
         }
 
         public T GetById(int id)
         {
-            return _entities.Find(id);
+            return  _entities.Find(id);
         }
 
         public void Remove(T entity)

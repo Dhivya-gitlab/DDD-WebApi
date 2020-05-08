@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\IBO_DotNet\\StudentEducationBoardService\\StudetEducationBoardService.Api\\StudentEducationBoardService.Api.csproj": {}
+    "C:\\IBO_NewAPI\\StudetEducationBoardService.Api\\StudentEducationBoardService.Api.csproj": {}
   },
   "projects": {
-    "C:\\IBO_DotNet\\StudentEducationBoardService\\StudentEducationBoardService.Data\\StudentEducationBoardService.Data.csproj": {
+    "C:\\IBO_NewAPI\\StudentEducationBoardService.Data\\StudentEducationBoardService.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\IBO_DotNet\\StudentEducationBoardService\\StudentEducationBoardService.Data\\StudentEducationBoardService.Data.csproj",
+        "projectUniqueName": "C:\\IBO_NewAPI\\StudentEducationBoardService.Data\\StudentEducationBoardService.Data.csproj",
         "projectName": "StudentEducationBoardService.Data",
-        "projectPath": "C:\\IBO_DotNet\\StudentEducationBoardService\\StudentEducationBoardService.Data\\StudentEducationBoardService.Data.csproj",
+        "projectPath": "C:\\IBO_NewAPI\\StudentEducationBoardService.Data\\StudentEducationBoardService.Data.csproj",
         "packagesPath": "C:\\Users\\cognizantdotnet05\\.nuget\\packages\\",
-        "outputPath": "C:\\IBO_DotNet\\StudentEducationBoardService\\StudentEducationBoardService.Data\\obj\\",
+        "outputPath": "C:\\IBO_NewAPI\\StudentEducationBoardService.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -31,8 +31,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\IBO_DotNet\\StudentEducationBoardService\\StudentEducationBoardService.Domain\\StudentEducationBoardService.Domain.csproj": {
-                "projectPath": "C:\\IBO_DotNet\\StudentEducationBoardService\\StudentEducationBoardService.Domain\\StudentEducationBoardService.Domain.csproj"
+              "C:\\IBO_NewAPI\\StudentEducationBoardService.Domain\\StudentEducationBoardService.Domain.csproj": {
+                "projectPath": "C:\\IBO_NewAPI\\StudentEducationBoardService.Domain\\StudentEducationBoardService.Domain.csproj"
               }
             }
           }
@@ -47,6 +47,12 @@
         "netcoreapp3.1": {
           "dependencies": {
             "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[3.1.3, )"
             }
@@ -70,14 +76,14 @@
         }
       }
     },
-    "C:\\IBO_DotNet\\StudentEducationBoardService\\StudentEducationBoardService.Domain\\StudentEducationBoardService.Domain.csproj": {
+    "C:\\IBO_NewAPI\\StudentEducationBoardService.Domain\\StudentEducationBoardService.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\IBO_DotNet\\StudentEducationBoardService\\StudentEducationBoardService.Domain\\StudentEducationBoardService.Domain.csproj",
+        "projectUniqueName": "C:\\IBO_NewAPI\\StudentEducationBoardService.Domain\\StudentEducationBoardService.Domain.csproj",
         "projectName": "StudentEducationBoardService.Domain",
-        "projectPath": "C:\\IBO_DotNet\\StudentEducationBoardService\\StudentEducationBoardService.Domain\\StudentEducationBoardService.Domain.csproj",
+        "projectPath": "C:\\IBO_NewAPI\\StudentEducationBoardService.Domain\\StudentEducationBoardService.Domain.csproj",
         "packagesPath": "C:\\Users\\cognizantdotnet05\\.nuget\\packages\\",
-        "outputPath": "C:\\IBO_DotNet\\StudentEducationBoardService\\StudentEducationBoardService.Domain\\obj\\",
+        "outputPath": "C:\\IBO_NewAPI\\StudentEducationBoardService.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -132,14 +138,14 @@
         }
       }
     },
-    "C:\\IBO_DotNet\\StudentEducationBoardService\\StudentEducationBoardService.Services\\StudentEducationBoardService.Services.csproj": {
+    "C:\\IBO_NewAPI\\StudentEducationBoardService.Services\\StudentEducationBoardService.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\IBO_DotNet\\StudentEducationBoardService\\StudentEducationBoardService.Services\\StudentEducationBoardService.Services.csproj",
+        "projectUniqueName": "C:\\IBO_NewAPI\\StudentEducationBoardService.Services\\StudentEducationBoardService.Services.csproj",
         "projectName": "StudentEducationBoardService.Services",
-        "projectPath": "C:\\IBO_DotNet\\StudentEducationBoardService\\StudentEducationBoardService.Services\\StudentEducationBoardService.Services.csproj",
+        "projectPath": "C:\\IBO_NewAPI\\StudentEducationBoardService.Services\\StudentEducationBoardService.Services.csproj",
         "packagesPath": "C:\\Users\\cognizantdotnet05\\.nuget\\packages\\",
-        "outputPath": "C:\\IBO_DotNet\\StudentEducationBoardService\\StudentEducationBoardService.Services\\obj\\",
+        "outputPath": "C:\\IBO_NewAPI\\StudentEducationBoardService.Services\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -159,11 +165,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\IBO_DotNet\\StudentEducationBoardService\\StudentEducationBoardService.Data\\StudentEducationBoardService.Data.csproj": {
-                "projectPath": "C:\\IBO_DotNet\\StudentEducationBoardService\\StudentEducationBoardService.Data\\StudentEducationBoardService.Data.csproj"
+              "C:\\IBO_NewAPI\\StudentEducationBoardService.Data\\StudentEducationBoardService.Data.csproj": {
+                "projectPath": "C:\\IBO_NewAPI\\StudentEducationBoardService.Data\\StudentEducationBoardService.Data.csproj"
               },
-              "C:\\IBO_DotNet\\StudentEducationBoardService\\StudentEducationBoardService.Domain\\StudentEducationBoardService.Domain.csproj": {
-                "projectPath": "C:\\IBO_DotNet\\StudentEducationBoardService\\StudentEducationBoardService.Domain\\StudentEducationBoardService.Domain.csproj"
+              "C:\\IBO_NewAPI\\StudentEducationBoardService.Domain\\StudentEducationBoardService.Domain.csproj": {
+                "projectPath": "C:\\IBO_NewAPI\\StudentEducationBoardService.Domain\\StudentEducationBoardService.Domain.csproj"
               }
             }
           }
@@ -205,14 +211,14 @@
         }
       }
     },
-    "C:\\IBO_DotNet\\StudentEducationBoardService\\StudetEducationBoardService.Api\\StudentEducationBoardService.Api.csproj": {
+    "C:\\IBO_NewAPI\\StudetEducationBoardService.Api\\StudentEducationBoardService.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\IBO_DotNet\\StudentEducationBoardService\\StudetEducationBoardService.Api\\StudentEducationBoardService.Api.csproj",
+        "projectUniqueName": "C:\\IBO_NewAPI\\StudetEducationBoardService.Api\\StudentEducationBoardService.Api.csproj",
         "projectName": "StudentEducationBoardService.Api",
-        "projectPath": "C:\\IBO_DotNet\\StudentEducationBoardService\\StudetEducationBoardService.Api\\StudentEducationBoardService.Api.csproj",
+        "projectPath": "C:\\IBO_NewAPI\\StudetEducationBoardService.Api\\StudentEducationBoardService.Api.csproj",
         "packagesPath": "C:\\Users\\cognizantdotnet05\\.nuget\\packages\\",
-        "outputPath": "C:\\IBO_DotNet\\StudentEducationBoardService\\StudetEducationBoardService.Api\\obj\\",
+        "outputPath": "C:\\IBO_NewAPI\\StudetEducationBoardService.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -232,8 +238,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\IBO_DotNet\\StudentEducationBoardService\\StudentEducationBoardService.Services\\StudentEducationBoardService.Services.csproj": {
-                "projectPath": "C:\\IBO_DotNet\\StudentEducationBoardService\\StudentEducationBoardService.Services\\StudentEducationBoardService.Services.csproj"
+              "C:\\IBO_NewAPI\\StudentEducationBoardService.Services\\StudentEducationBoardService.Services.csproj": {
+                "projectPath": "C:\\IBO_NewAPI\\StudentEducationBoardService.Services\\StudentEducationBoardService.Services.csproj"
               }
             }
           }
@@ -251,9 +257,31 @@
               "target": "Package",
               "version": "[9.0.0, )"
             },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "Microsoft.Extensions.Caching.StackExchangeRedis": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[3.1.2, )"
+            },
+            "Swashbuckle": {
+              "target": "Package",
+              "version": "[5.6.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.4.1, )"
             }
           },
           "imports": [

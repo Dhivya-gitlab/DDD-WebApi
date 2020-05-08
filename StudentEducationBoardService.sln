@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentEducationBoardService.Api", "StudetEducationBoardService.Api\StudentEducationBoardService.Api.csproj", "{17DC7615-1139-4C3D-8E40-BBE184B8D1B4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StudentEducationBoardService.Api", "StudetEducationBoardService.Api\StudentEducationBoardService.Api.csproj", "{17DC7615-1139-4C3D-8E40-BBE184B8D1B4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentEducationBoardService.Domain", "StudentEducationBoardService.Domain\StudentEducationBoardService.Domain.csproj", "{AFF13227-A34C-473A-999B-91B7E6C73976}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StudentEducationBoardService.Domain", "StudentEducationBoardService.Domain\StudentEducationBoardService.Domain.csproj", "{AFF13227-A34C-473A-999B-91B7E6C73976}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "StudentEducationBoardService.Infrastructure", "StudentEducationBoardService.Infrastructure", "{C4A074DF-D0C5-42FB-8266-CC4CD764F2A1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentEducationBoardService.Services", "StudentEducationBoardService.Services\StudentEducationBoardService.Services.csproj", "{735F7824-3319-4FC7-915E-736420F76083}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StudentEducationBoardService.Services", "StudentEducationBoardService.Services\StudentEducationBoardService.Services.csproj", "{735F7824-3319-4FC7-915E-736420F76083}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentEducationBoardService.Data", "StudentEducationBoardService.Data\StudentEducationBoardService.Data.csproj", "{FCDAE016-0D58-456F-8182-28DBB2BCF1F8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StudentEducationBoardService.Data", "StudentEducationBoardService.Data\StudentEducationBoardService.Data.csproj", "{FCDAE016-0D58-456F-8182-28DBB2BCF1F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentEducationBoardTest", "StudentEducationBoardTest\StudentEducationBoardTest.csproj", "{D131631C-BAD4-44B1-B797-5B24A2744E5C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,6 +37,10 @@ Global
 		{FCDAE016-0D58-456F-8182-28DBB2BCF1F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FCDAE016-0D58-456F-8182-28DBB2BCF1F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FCDAE016-0D58-456F-8182-28DBB2BCF1F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D131631C-BAD4-44B1-B797-5B24A2744E5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D131631C-BAD4-44B1-B797-5B24A2744E5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D131631C-BAD4-44B1-B797-5B24A2744E5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D131631C-BAD4-44B1-B797-5B24A2744E5C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

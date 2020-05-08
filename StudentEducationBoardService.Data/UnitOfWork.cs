@@ -1,7 +1,6 @@
 ﻿using StudentEducationBoardService.Data.Repositories;
-using System;
-using System.Collections.Generic;
-using System.Text;
+using StudentEducationBoardService.Domain;
+using StudentEducationBoardService.Domain.Repositories;
 
 namespace StudentEducationBoardService.Data
 {

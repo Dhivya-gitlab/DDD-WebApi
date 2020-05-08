@@ -1,43 +1,61 @@
 
+using AutoMapper;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Mvc.ApplicationModels;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using StudentEducationBoardService.Data;
-using StudentEducationBoardService.Data.Repositories;
+using StudentEducationBoardService.Domain;
+using StudentEducationBoardService.Domain.Services;
 using StudentEducationBoardService.Services.Services;
-using StudentEducationBoardService.Services.ServicesInterface;
 
 namespace StudentEducationBoardService.Api
 {
     public class Startup
     {
-        public Startup(IConfiguration configuration)
+        public Startup(IWebHostEnvironment evn, IConfiguration configuration)
         {
+            HostEnvironment = evn;
             Configuration = configuration;
         }
 
         public IConfiguration Configuration { get; }
-
+        public IWebHostEnvironment HostEnvironment { get; }
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddControllers();
-            services.AddTransient<ISchoolRepository, SchoolRepository>();
-            services.AddTransient<ISchoolService, SchoolService>();
-            services.AddDbContext<StudentEducationBoardDbContext>(option => option.UseSqlServer(@"Data Source = DNETAZ15; Initial Catalog = EducationBoard; Integrated Security = true"));
-            
+            if (HostEnvironment.EnvironmentName == "Development")
+            {
+                services.AddDbContextPool<StudentEducationBoardDbContext>(options =>
+                {
+                    options.UseSqlServer(Configuration["Data:ConectionStrings:localDbConnection"]);
+                });
+            }
+            else
+            {
+                services.AddDbContextPool<StudentEducationBoardDbContext>(options =>
+                {
+                    options.UseSqlServer(Configuration["Data:ConectionStrings:azureDbConnection"]);
+                });
+            }
 
-            //services.AddMvc().AddControllersAsServices();
-            //services.AddControllers();
-            //services.AddDbContext<StudentEducationBoardDbContext>(option => option.UseSqlServer(@"Data Source = DNETAZ15; Initial Catalog = EducationBoard; Integrated Security = true"));
-            //services.AddSingleton<ISchoolService, SchoolService>();
+            services.AddStackExchangeRedisCache(options =>
+            {
+                options.Configuration = Configuration["Data:ConectionStrings:AzureRedisCache"];
+            });
+
             //services.AddScoped<ISchoolRepository, SchoolRepository>();
-            //services.AddSingleton<IUnitOfWork, UnitOfWork>();
-            //services.AddSingleton<SchoolService>();
+            services.AddScoped<ISchoolService, SchoolService>();
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
+            services.AddControllers();
+            services.AddMvc();
+            services.AddAutoMapper(typeof(Startup));
+            services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo { Title = "School Education Board", Version = "v1" });
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -47,6 +65,12 @@ namespace StudentEducationBoardService.Api
             {
                 app.UseDeveloperExceptionPage();
             }
+
+            //Enable middleware to serve generated swagger as a json endpoint
+            app.UseSwagger();
+
+            //Enable middleware to server swagger-ui
+            app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "School Education Board"));
 
             app.UseHttpsRedirection();
 
@@ -60,6 +84,7 @@ namespace StudentEducationBoardService.Api
             });
 
             educationContext.Database.EnsureCreated();
+            //educationContext.Database.Migrate();
         }
     }
 }

@@ -1,0 +1,15 @@
+C:\IBO_DotNet\StudentEducationBoardService\StudentEducationBoardService.Data\bin\Release\netcoreapp3.1\StudentEducationBoardService.Data.deps.json
+C:\IBO_DotNet\StudentEducationBoardService\StudentEducationBoardService.Data\bin\Release\netcoreapp3.1\StudentEducationBoardService.Data.dll
+C:\IBO_DotNet\StudentEducationBoardService\StudentEducationBoardService.Data\bin\Release\netcoreapp3.1\StudentEducationBoardService.Data.pdb
+C:\IBO_DotNet\StudentEducationBoardService\StudentEducationBoardService.Data\bin\Release\netcoreapp3.1\StudentEducationBoardService.Domain.dll
+C:\IBO_DotNet\StudentEducationBoardService\StudentEducationBoardService.Data\bin\Release\netcoreapp3.1\StudentEducationBoardService.Domain.pdb
+C:\IBO_DotNet\StudentEducationBoardService\StudentEducationBoardService.Data\obj\Release\netcoreapp3.1\StudentEducationBoardService.Data.csprojAssemblyReference.cache
+C:\IBO_DotNet\StudentEducationBoardService\StudentEducationBoardService.Data\obj\Release\netcoreapp3.1\StudentEducationBoardService.Data.csproj.CoreCompileInputs.cache
+C:\IBO_DotNet\StudentEducationBoardService\StudentEducationBoardService.Data\obj\Release\netcoreapp3.1\StudentEducationBoardService.Data.AssemblyInfoInputs.cache
+C:\IBO_DotNet\StudentEducationBoardService\StudentEducationBoardService.Data\obj\Release\netcoreapp3.1\StudentEducationBoardService.Data.AssemblyInfo.cs
+C:\IBO_DotNet\StudentEducationBoardService\StudentEducationBoardService.Data\obj\Release\netcoreapp3.1\StudentEducationBoardService.Data.csproj.CopyComplete
+C:\IBO_DotNet\StudentEducationBoardService\StudentEducationBoardService.Data\obj\Release\netcoreapp3.1\StudentEducationBoardService.Data.dll
+C:\IBO_DotNet\StudentEducationBoardService\StudentEducationBoardService.Data\obj\Release\netcoreapp3.1\StudentEducationBoardService.Data.pdb
+C:\IBO_DotNet\StudentEducationBoardService\StudentEducationBoardService.Data\bin\Release\netcoreapp3.1\StudentEducationBoardService.Data.runtimeconfig.json
+C:\IBO_DotNet\StudentEducationBoardService\StudentEducationBoardService.Data\bin\Release\netcoreapp3.1\StudentEducationBoardService.Data.runtimeconfig.dev.json
+C:\IBO_DotNet\StudentEducationBoardService\StudentEducationBoardService.Data\obj\Release\netcoreapp3.1\StudentEducationBoardService.Data.genruntimeconfig.cache

@@ -1,15 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using AutoMapper;
-using Microsoft.AspNetCore.Http;
+﻿using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
 using StudentEducationBoardService.Api.AppModels;
-using StudentEducationBoardService.Data;
 using StudentEducationBoardService.Domain.Models;
-using StudentEducationBoardService.Services.Dtos.SchoolDto;
-using StudentEducationBoardService.Services.ServicesInterface;
+using StudentEducationBoardService.Domain.Services;
+using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace StudentEducationBoardService.Api.Controllers
 {
@@ -28,97 +23,76 @@ namespace StudentEducationBoardService.Api.Controllers
 
         // GET: api/School
         [HttpGet]
-        public IEnumerable<SchoolDetails> Get()
+        public async Task<IEnumerable<SchoolDetailsDto>> Get()
         {
-            List<SchoolDetailsDto> schoolDetailsDto = _schoolService.GetSchoolList();
-            List<SchoolDetails> schoolDetail = _mapper.Map<List<SchoolDetails>>(schoolDetailsDto);
+            List<School> schoolDetailsCol = await _schoolService.GetSchoolList();
+            List<SchoolDetailsDto> schoolDetail = _mapper.Map<List<SchoolDetailsDto>>(schoolDetailsCol);
             return schoolDetail;
         }
 
         // GET: api/School/5
         [HttpGet("{id}", Name = "Get")]
-        public SchoolDetails Get(int id)
+        public SchoolDetailsDto Get(int id)
         {
-            SchoolDetailsDto schoolDetailsDto = _schoolService.GetSchool(id);
-            SchoolDetails school = _mapper.Map<SchoolDetails>(schoolDetailsDto);
+            School schoolDetailsDto = _schoolService.GetSchool(id);
+            SchoolDetailsDto school = _mapper.Map<SchoolDetailsDto>(schoolDetailsDto);
             return school;
         }
 
+        //// GET: api/School/5
+        //[HttpGet("{id}", Name = "GetById")]
+        //public SchoolDetailsDto GetById(int id)
+        //{
+        //    School schoolDetailsDto = _schoolService.GetSchool(id);
+        //    SchoolDetailsDto school = _mapper.Map<SchoolDetailsDto>(schoolDetailsDto);
+        //    return school;
+        //}
+
         // POST: api/School
         [HttpPost]
-        public void Post([FromBody] CreateSchool schoolToBeCreated)
+        public IActionResult Post([FromBody] CreateSchoolDto schoolToBeCreated)
         {
-            CreateSchoolDto createSchool = _mapper.Map<CreateSchoolDto>(schoolToBeCreated);
-            _schoolService.CreateSchool(createSchool);
+            if (schoolToBeCreated == null)
+            {
+                return BadRequest("Invalid school to add");
+            }
+            else
+            {
+                School createSchool = _mapper.Map<School>(schoolToBeCreated);
+                _schoolService.CreateSchool(createSchool);
+                return Ok("School created successfully");
+            }
         }
 
         // PUT: api/School/5
         [HttpPut("{id}")]
-        public void Put(int id, [FromBody] UpdateSchool schoolToUpdate)
+        public IActionResult Put(int id, [FromBody] UpdateSchoolDto schoolToUpdate)
         {
-            UpdateSchoolDto schoolToBeUpdated = _mapper.Map<UpdateSchoolDto>(schoolToUpdate);
-            _schoolService.UpdateSchool(schoolToBeUpdated);
+            if (id < 1)
+            {
+                return BadRequest("Invalid School Id");
+            }
+            else
+            {
+                School schoolToBeUpdated = _mapper.Map<School>(schoolToUpdate);
+                _schoolService.UpdateSchool(id, schoolToBeUpdated);
+                return Ok("School updated successfully");
+            }
         }
 
         // DELETE: api/ApiWithActions/5
         [HttpDelete("{id}")]
-        public void Delete(int id)
+        public IActionResult Delete(int id)
         {
-            _schoolService.DeleteSchool(id);
+            if (id < 1)
+            {
+                return BadRequest("Invalid School Id");
+            }
+            else
+            {
+                _schoolService.DeleteSchool(id);
+                return Ok("School successfully removed from database");
+            }
         }
     }
-
-    //Backup working copy
-    //public class SchoolController : ControllerBase
-    //{
-    //    private StudentEducationBoardDbContext educationBoardContext;
-
-    //    public SchoolController(StudentEducationBoardDbContext educationBoardContext)
-    //    {
-    //        this.educationBoardContext = educationBoardContext;
-    //    }
-
-    //    // GET: api/School
-    //    [HttpGet]
-    //    public IEnumerable<School> Get()
-    //    {
-    //        return educationBoardContext.Schools;
-    //    }
-
-    //    // GET: api/School/5
-    //    [HttpGet("{id}", Name = "Get")]
-    //    public School Get(int id)
-    //    {
-    //        var school = educationBoardContext.Schools.Find(id);
-    //        return school;
-    //    }
-
-    //    // POST: api/School
-    //    [HttpPost]
-    //    public void Post([FromBody] School school)
-    //    {
-    //        educationBoardContext.Schools.Add(school);
-    //        educationBoardContext.SaveChanges();
-    //    }
-
-    //    // PUT: api/School/5
-    //    [HttpPut("{id}")]
-    //    public void Put(int id, [FromBody] School value)
-    //    {
-    //        var schoolToUpdate = educationBoardContext.Schools.Find(id);
-    //        schoolToUpdate.SchoolName = value.SchoolName;
-    //        schoolToUpdate.Country = value.Country;
-    //        schoolToUpdate.CommunicationLanguage = value.CommunicationLanguage;
-    //        educationBoardContext.SaveChanges();
-    //    }
-
-    //    // DELETE: api/ApiWithActions/5
-    //    [HttpDelete("{id}")]
-    //    public void Delete(int id)
-    //    {
-    //        var schoolToRemove = educationBoardContext.Schools.Find(id);
-    //        educationBoardContext.Schools.Remove(schoolToRemove);
-    //        educationBoardContext.SaveChanges();
-    //    }
-    //}
 }
