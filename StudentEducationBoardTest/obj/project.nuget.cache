@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "k+hM1fTgahsKeuF1W7xFWKf1C2Wj1q/UeM04nPLWoENsRw4lvyqNU+digVH70EXuY8tsCpeSZXteYz5aWGlyaA==",
+  "dgSpecHash": "kDjxOQS10sRCtdnk8fXGNIHo928r+006Yqc+qqH2DVQCTSMOTbhkaJMtrPDHmr2mWnFLDtx0XHz9mkIRhEGM+w==",
   "success": true,
-  "projectFilePath": "C:\\IBO_DotNet\\StudentEducationBoardService\\StudentEducationBoardTest\\StudentEducationBoardTest.csproj",
+  "projectFilePath": "C:\\IBO_NewAPI\\StudentEducationBoardTest\\StudentEducationBoardTest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\cognizantdotnet05\\.nuget\\packages\\abp\\5.6.0\\abp.5.6.0.nupkg.sha512",
     "C:\\Users\\cognizantdotnet05\\.nuget\\packages\\automapper\\9.0.0\\automapper.9.0.0.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GQRNTdTpGNoWYTm72G2oYq6tQVf7J4flmCJdGuID0l2j6lcmdgiMUYM/jy1G7QfQvqI4PAOhtpDmBKjoYttM6w==",
+  "dgSpecHash": "OXS3fkRRu3dVIOlTYCm71MT7TNhUhT3BK87kBdnaH70itxA++XIF5C92hKb2DGuKegkj50Wg4Hk/0m6L9l3MsQ==",
   "success": true,
-  "projectFilePath": "C:\\IBO_DotNet\\StudentEducationBoardService\\StudentEducationBoardService.Services\\StudentEducationBoardService.Services.csproj",
+  "projectFilePath": "C:\\IBO_NewAPI\\StudentEducationBoardService.Services\\StudentEducationBoardService.Services.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\cognizantdotnet05\\.nuget\\packages\\abp\\5.6.0\\abp.5.6.0.nupkg.sha512",
     "C:\\Users\\cognizantdotnet05\\.nuget\\packages\\castle.core\\4.4.0\\castle.core.4.4.0.nupkg.sha512",
