@@ -7,9 +7,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using StudentEducationBoardService.Data;
-using StudentEducationBoardService.Data.Repositories;
 using StudentEducationBoardService.Domain;
-using StudentEducationBoardService.Domain.Repositories;
 using StudentEducationBoardService.Domain.Services;
 using StudentEducationBoardService.Services.Services;
 
@@ -42,6 +40,11 @@ namespace StudentEducationBoardService.Api
                     options.UseSqlServer(Configuration["Data:ConectionStrings:azureDbConnection"]);
                 });
             }
+
+            services.AddStackExchangeRedisCache(options =>
+            {
+                options.Configuration = Configuration["Data:ConectionStrings:AzureRedisCache"];
+            });
 
             //services.AddScoped<ISchoolRepository, SchoolRepository>();
             services.AddScoped<ISchoolService, SchoolService>();

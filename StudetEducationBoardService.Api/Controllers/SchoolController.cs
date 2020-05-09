@@ -25,8 +25,8 @@ namespace StudentEducationBoardService.Api.Controllers
         [HttpGet]
         public async Task<IEnumerable<SchoolDetailsDto>> Get()
         {
-            List<School> schoolDetails = await _schoolService.GetSchoolList();
-            List<SchoolDetailsDto> schoolDetail = _mapper.Map<List<SchoolDetailsDto>>(schoolDetails);
+            List<School> schoolDetailsCol = await _schoolService.GetSchoolList();
+            List<SchoolDetailsDto> schoolDetail = _mapper.Map<List<SchoolDetailsDto>>(schoolDetailsCol);
             return schoolDetail;
         }
 

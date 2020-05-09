@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Caching.Distributed;
 using Moq;
 using NUnit.Framework;
 using StudentEducationBoardService.Api.AppModels;
@@ -24,6 +25,7 @@ namespace StudentEducationBoardTest
         IUnitOfWork _unitOfWork;
         Task<IQueryable<School>> _schoolDetails;
         SchoolController _schoolController;
+        Mock<IDistributedCache> _redisCache;
         #endregion
 
         [SetUp]
@@ -31,6 +33,7 @@ namespace StudentEducationBoardTest
         {
             _schoolDetails = SetUpSchoolDetails();
             _schoolRepository = SetSchoolRepository();
+            _redisCache = new Mock<IDistributedCache>();
 
             //we can't set property to mock object directly. To achive that implemented below code
             var unitOfData = new Mock<IUnitOfWork>();
@@ -39,7 +42,7 @@ namespace StudentEducationBoardTest
 
             _unitOfWork.Repository = _schoolRepository;
 
-            _schoolService = new SchoolService(_unitOfWork);
+            _schoolService = new SchoolService(_unitOfWork, _redisCache.Object);
 
             _schoolController = new SchoolController(_schoolService, SchoolAutoMapper.Mapper());
         }
