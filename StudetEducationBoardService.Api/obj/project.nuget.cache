@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "IfiWTcQP3ZYImmSBBuTRipiZX4+4e3OwGZSHIBk+boZN+5kdfhKkQPCEO2P3R2g09LbVOnIXt36fyjO2JoclBQ==",
+  "dgSpecHash": "xuKeFY9o1U8zKs12Fb798w8fkMDwxcx+n2pjlNrntZYZm5Z9lJFaGmR4U6/Rzr//AmzU5/TULID5gkzO7wVnrw==",
   "success": true,
   "projectFilePath": "C:\\IBO_DotNet\\StudentEducationBoardService\\StudetEducationBoardService.Api\\StudentEducationBoardService.Api.csproj",
   "expectedPackageFiles": [
@@ -11,6 +11,7 @@
     "C:\\Users\\cognizantdotnet05\\.nuget\\packages\\castle.core.asyncinterceptor\\2.0.21-alpha\\castle.core.asyncinterceptor.2.0.21-alpha.nupkg.sha512",
     "C:\\Users\\cognizantdotnet05\\.nuget\\packages\\castle.loggingfacility\\5.0.1\\castle.loggingfacility.5.0.1.nupkg.sha512",
     "C:\\Users\\cognizantdotnet05\\.nuget\\packages\\castle.windsor\\5.0.1\\castle.windsor.5.0.1.nupkg.sha512",
+    "C:\\Users\\cognizantdotnet05\\.nuget\\packages\\fluentvalidation\\8.6.2\\fluentvalidation.8.6.2.nupkg.sha512",
     "C:\\Users\\cognizantdotnet05\\.nuget\\packages\\jetbrains.annotations\\2019.1.3\\jetbrains.annotations.2019.1.3.nupkg.sha512",
     "C:\\Users\\cognizantdotnet05\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\cognizantdotnet05\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",

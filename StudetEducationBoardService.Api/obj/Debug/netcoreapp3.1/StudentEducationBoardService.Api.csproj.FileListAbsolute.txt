@@ -154,6 +154,3 @@ C:\IBO_DotNet\StudentEducationBoardService\StudetEducationBoardService.Api\bin\D
 C:\IBO_DotNet\StudentEducationBoardService\StudetEducationBoardService.Api\bin\Debug\netcoreapp3.1\StackExchange.Redis.dll
 C:\IBO_DotNet\StudentEducationBoardService\StudetEducationBoardService.Api\bin\Debug\netcoreapp3.1\System.Diagnostics.PerformanceCounter.dll
 C:\IBO_DotNet\StudentEducationBoardService\StudetEducationBoardService.Api\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Diagnostics.PerformanceCounter.dll
-C:\IBO_DotNet\StudentEducationBoardService\StudetEducationBoardService.Api\obj\Debug\netcoreapp3.1\StudentEducationBoardService.Api.csproj.CoreCompileInputs.cache
-C:\IBO_DotNet\StudentEducationBoardService\StudetEducationBoardService.Api\obj\Debug\netcoreapp3.1\StudentEducationBoardService.Api.MvcApplicationPartsAssemblyInfo.cs
-C:\IBO_DotNet\StudentEducationBoardService\StudetEducationBoardService.Api\obj\Debug\netcoreapp3.1\StudentEducationBoardService.Api.MvcApplicationPartsAssemblyInfo.cache
