@@ -14,6 +14,7 @@ C:\IBO_DotNet\StudentEducationBoardService\StudetEducationBoardService.Api\bin\D
 C:\IBO_DotNet\StudentEducationBoardService\StudetEducationBoardService.Api\bin\Debug\netcoreapp3.1\Castle.Core.AsyncInterceptor.dll
 C:\IBO_DotNet\StudentEducationBoardService\StudetEducationBoardService.Api\bin\Debug\netcoreapp3.1\Castle.Facilities.Logging.dll
 C:\IBO_DotNet\StudentEducationBoardService\StudetEducationBoardService.Api\bin\Debug\netcoreapp3.1\Castle.Windsor.dll
+C:\IBO_DotNet\StudentEducationBoardService\StudetEducationBoardService.Api\bin\Debug\netcoreapp3.1\FluentValidation.dll
 C:\IBO_DotNet\StudentEducationBoardService\StudetEducationBoardService.Api\bin\Debug\netcoreapp3.1\JetBrains.Annotations.dll
 C:\IBO_DotNet\StudentEducationBoardService\StudetEducationBoardService.Api\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
 C:\IBO_DotNet\StudentEducationBoardService\StudetEducationBoardService.Api\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
@@ -32,6 +33,7 @@ C:\IBO_DotNet\StudentEducationBoardService\StudetEducationBoardService.Api\bin\D
 C:\IBO_DotNet\StudentEducationBoardService\StudetEducationBoardService.Api\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
 C:\IBO_DotNet\StudentEducationBoardService\StudetEducationBoardService.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
 C:\IBO_DotNet\StudentEducationBoardService\StudetEducationBoardService.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\IBO_DotNet\StudentEducationBoardService\StudetEducationBoardService.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.StackExchangeRedis.dll
 C:\IBO_DotNet\StudentEducationBoardService\StudetEducationBoardService.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
 C:\IBO_DotNet\StudentEducationBoardService\StudetEducationBoardService.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
 C:\IBO_DotNet\StudentEducationBoardService\StudetEducationBoardService.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
@@ -59,6 +61,8 @@ C:\IBO_DotNet\StudentEducationBoardService\StudetEducationBoardService.Api\bin\D
 C:\IBO_DotNet\StudentEducationBoardService\StudetEducationBoardService.Api\bin\Debug\netcoreapp3.1\Nito.Collections.Deque.dll
 C:\IBO_DotNet\StudentEducationBoardService\StudetEducationBoardService.Api\bin\Debug\netcoreapp3.1\Nito.Disposables.dll
 C:\IBO_DotNet\StudentEducationBoardService\StudetEducationBoardService.Api\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+C:\IBO_DotNet\StudentEducationBoardService\StudetEducationBoardService.Api\bin\Debug\netcoreapp3.1\Pipelines.Sockets.Unofficial.dll
+C:\IBO_DotNet\StudentEducationBoardService\StudetEducationBoardService.Api\bin\Debug\netcoreapp3.1\StackExchange.Redis.dll
 C:\IBO_DotNet\StudentEducationBoardService\StudetEducationBoardService.Api\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
 C:\IBO_DotNet\StudentEducationBoardService\StudetEducationBoardService.Api\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\IBO_DotNet\StudentEducationBoardService\StudetEducationBoardService.Api\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
@@ -68,6 +72,7 @@ C:\IBO_DotNet\StudentEducationBoardService\StudetEducationBoardService.Api\bin\D
 C:\IBO_DotNet\StudentEducationBoardService\StudetEducationBoardService.Api\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
 C:\IBO_DotNet\StudentEducationBoardService\StudetEducationBoardService.Api\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
 C:\IBO_DotNet\StudentEducationBoardService\StudetEducationBoardService.Api\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\IBO_DotNet\StudentEducationBoardService\StudetEducationBoardService.Api\bin\Debug\netcoreapp3.1\System.Diagnostics.PerformanceCounter.dll
 C:\IBO_DotNet\StudentEducationBoardService\StudetEducationBoardService.Api\bin\Debug\netcoreapp3.1\System.Linq.Dynamic.Core.dll
 C:\IBO_DotNet\StudentEducationBoardService\StudetEducationBoardService.Api\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
 C:\IBO_DotNet\StudentEducationBoardService\StudetEducationBoardService.Api\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
@@ -130,6 +135,7 @@ C:\IBO_DotNet\StudentEducationBoardService\StudetEducationBoardService.Api\bin\D
 C:\IBO_DotNet\StudentEducationBoardService\StudetEducationBoardService.Api\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
 C:\IBO_DotNet\StudentEducationBoardService\StudetEducationBoardService.Api\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
 C:\IBO_DotNet\StudentEducationBoardService\StudetEducationBoardService.Api\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\IBO_DotNet\StudentEducationBoardService\StudetEducationBoardService.Api\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Diagnostics.PerformanceCounter.dll
 C:\IBO_DotNet\StudentEducationBoardService\StudetEducationBoardService.Api\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\IBO_DotNet\StudentEducationBoardService\StudetEducationBoardService.Api\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\IBO_DotNet\StudentEducationBoardService\StudetEducationBoardService.Api\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
@@ -140,6 +146,9 @@ C:\IBO_DotNet\StudentEducationBoardService\StudetEducationBoardService.Api\bin\D
 C:\IBO_DotNet\StudentEducationBoardService\StudetEducationBoardService.Api\bin\Debug\netcoreapp3.1\StudentEducationBoardService.Data.pdb
 C:\IBO_DotNet\StudentEducationBoardService\StudetEducationBoardService.Api\bin\Debug\netcoreapp3.1\StudentEducationBoardService.Domain.pdb
 C:\IBO_DotNet\StudentEducationBoardService\StudetEducationBoardService.Api\obj\Debug\netcoreapp3.1\StudentEducationBoardService.Api.csprojAssemblyReference.cache
+C:\IBO_DotNet\StudentEducationBoardService\StudetEducationBoardService.Api\obj\Debug\netcoreapp3.1\StudentEducationBoardService.Api.csproj.CoreCompileInputs.cache
+C:\IBO_DotNet\StudentEducationBoardService\StudetEducationBoardService.Api\obj\Debug\netcoreapp3.1\StudentEducationBoardService.Api.MvcApplicationPartsAssemblyInfo.cs
+C:\IBO_DotNet\StudentEducationBoardService\StudetEducationBoardService.Api\obj\Debug\netcoreapp3.1\StudentEducationBoardService.Api.MvcApplicationPartsAssemblyInfo.cache
 C:\IBO_DotNet\StudentEducationBoardService\StudetEducationBoardService.Api\obj\Debug\netcoreapp3.1\StudentEducationBoardService.Api.AssemblyInfoInputs.cache
 C:\IBO_DotNet\StudentEducationBoardService\StudetEducationBoardService.Api\obj\Debug\netcoreapp3.1\StudentEducationBoardService.Api.AssemblyInfo.cs
 C:\IBO_DotNet\StudentEducationBoardService\StudetEducationBoardService.Api\obj\Debug\netcoreapp3.1\StudentEducationBoardService.Api.RazorTargetAssemblyInfo.cache
@@ -149,8 +158,3 @@ C:\IBO_DotNet\StudentEducationBoardService\StudetEducationBoardService.Api\obj\D
 C:\IBO_DotNet\StudentEducationBoardService\StudetEducationBoardService.Api\obj\Debug\netcoreapp3.1\StudentEducationBoardService.Api.dll
 C:\IBO_DotNet\StudentEducationBoardService\StudetEducationBoardService.Api\obj\Debug\netcoreapp3.1\StudentEducationBoardService.Api.pdb
 C:\IBO_DotNet\StudentEducationBoardService\StudetEducationBoardService.Api\obj\Debug\netcoreapp3.1\StudentEducationBoardService.Api.genruntimeconfig.cache
-C:\IBO_DotNet\StudentEducationBoardService\StudetEducationBoardService.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.StackExchangeRedis.dll
-C:\IBO_DotNet\StudentEducationBoardService\StudetEducationBoardService.Api\bin\Debug\netcoreapp3.1\Pipelines.Sockets.Unofficial.dll
-C:\IBO_DotNet\StudentEducationBoardService\StudetEducationBoardService.Api\bin\Debug\netcoreapp3.1\StackExchange.Redis.dll
-C:\IBO_DotNet\StudentEducationBoardService\StudetEducationBoardService.Api\bin\Debug\netcoreapp3.1\System.Diagnostics.PerformanceCounter.dll
-C:\IBO_DotNet\StudentEducationBoardService\StudetEducationBoardService.Api\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Diagnostics.PerformanceCounter.dll
