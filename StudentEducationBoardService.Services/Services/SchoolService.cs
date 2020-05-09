@@ -27,17 +27,6 @@ namespace StudentEducationBoardService.Services.Services
             {
                 throw new ArgumentNullException(nameof(createSchool));
             }
-
-            //School schoolToBeCreated = new School()
-            //{
-            //    SchoolName = createSchoolDto.SchoolName,
-            //    Country = createSchoolDto.Country,
-            //    CommunicationLanguage = createSchoolDto.CommunicationLanguage,
-            //    User = createSchoolDto.User,
-            //    Program = createSchoolDto.Program,
-            //    AssessmentPeriod = createSchoolDto.AssessmentPeriod
-            //};
-
             schoolUnitOfWork.Repository.Add(createSchool);
             schoolUnitOfWork.Complete();
         }
@@ -56,17 +45,6 @@ namespace StudentEducationBoardService.Services.Services
         public School GetSchool(int schoolID)
         {
             var school = schoolUnitOfWork.Repository.GetById(schoolID);
-            //School schoolRequested = new SchoolDetailsDto()
-            //{
-            //    SchoolId = school.SchoolId,
-            //    SchoolName = school.SchoolName,
-            //    Country = school.Country,
-            //    CommunicationLanguage = school.CommunicationLanguage,
-            //    User = school.User,
-            //    Program = school.Program,
-            //    AssessmentPeriod = school.AssessmentPeriod
-            //};
-
             return school;
         }
 
@@ -89,18 +67,6 @@ namespace StudentEducationBoardService.Services.Services
 
             var schoolListCol = JsonSerializer.Deserialize<List<School>>(cachedSchoolsDetail, opt);
             return schoolListCol.ToList();
-            //var schoolList = await schoolUnitOfWork.Repository.GetAll();
-            //return schoolList.ToList();
-            //return schoolList.Select(s => new SchoolDetailsDto
-            //{
-            //    SchoolId = s.SchoolId,
-            //    SchoolName = s.SchoolName,
-            //    Country = s.Country,
-            //    CommunicationLanguage = s.CommunicationLanguage,
-            //    User = s.User,
-            //    Program = s.Program,
-            //    AssessmentPeriod = s.AssessmentPeriod
-            //}).ToList();
         }
 
         public void UpdateSchool(int id, School updateSchool)
