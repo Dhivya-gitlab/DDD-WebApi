@@ -8274,11 +8274,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\IBO_NewAPI\\StudentEducationBoardService.Services\\StudentEducationBoardService.Services.csproj",
+      "projectUniqueName": "C:\\IBO_DotNet\\StudentEducationBoardService\\StudentEducationBoardService.Services\\StudentEducationBoardService.Services.csproj",
       "projectName": "StudentEducationBoardService.Services",
-      "projectPath": "C:\\IBO_NewAPI\\StudentEducationBoardService.Services\\StudentEducationBoardService.Services.csproj",
+      "projectPath": "C:\\IBO_DotNet\\StudentEducationBoardService\\StudentEducationBoardService.Services\\StudentEducationBoardService.Services.csproj",
       "packagesPath": "C:\\Users\\cognizantdotnet05\\.nuget\\packages\\",
-      "outputPath": "C:\\IBO_NewAPI\\StudentEducationBoardService.Services\\obj\\",
+      "outputPath": "C:\\IBO_DotNet\\StudentEducationBoardService\\StudentEducationBoardService.Services\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -8298,11 +8298,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\IBO_NewAPI\\StudentEducationBoardService.Data\\StudentEducationBoardService.Data.csproj": {
-              "projectPath": "C:\\IBO_NewAPI\\StudentEducationBoardService.Data\\StudentEducationBoardService.Data.csproj"
+            "C:\\IBO_DotNet\\StudentEducationBoardService\\StudentEducationBoardService.Data\\StudentEducationBoardService.Data.csproj": {
+              "projectPath": "C:\\IBO_DotNet\\StudentEducationBoardService\\StudentEducationBoardService.Data\\StudentEducationBoardService.Data.csproj"
             },
-            "C:\\IBO_NewAPI\\StudentEducationBoardService.Domain\\StudentEducationBoardService.Domain.csproj": {
-              "projectPath": "C:\\IBO_NewAPI\\StudentEducationBoardService.Domain\\StudentEducationBoardService.Domain.csproj"
+            "C:\\IBO_DotNet\\StudentEducationBoardService\\StudentEducationBoardService.Domain\\StudentEducationBoardService.Domain.csproj": {
+              "projectPath": "C:\\IBO_DotNet\\StudentEducationBoardService\\StudentEducationBoardService.Domain\\StudentEducationBoardService.Domain.csproj"
             }
           }
         }

@@ -9956,11 +9956,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\IBO_NewAPI\\StudentEducationBoardTest\\StudentEducationBoardTest.csproj",
+      "projectUniqueName": "C:\\IBO_DotNet\\StudentEducationBoardService\\StudentEducationBoardTest\\StudentEducationBoardTest.csproj",
       "projectName": "StudentEducationBoardTest",
-      "projectPath": "C:\\IBO_NewAPI\\StudentEducationBoardTest\\StudentEducationBoardTest.csproj",
+      "projectPath": "C:\\IBO_DotNet\\StudentEducationBoardService\\StudentEducationBoardTest\\StudentEducationBoardTest.csproj",
       "packagesPath": "C:\\Users\\cognizantdotnet05\\.nuget\\packages\\",
-      "outputPath": "C:\\IBO_NewAPI\\StudentEducationBoardTest\\obj\\",
+      "outputPath": "C:\\IBO_DotNet\\StudentEducationBoardService\\StudentEducationBoardTest\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -9980,8 +9980,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\IBO_NewAPI\\StudetEducationBoardService.Api\\StudentEducationBoardService.Api.csproj": {
-              "projectPath": "C:\\IBO_NewAPI\\StudetEducationBoardService.Api\\StudentEducationBoardService.Api.csproj"
+            "C:\\IBO_DotNet\\StudentEducationBoardService\\StudetEducationBoardService.Api\\StudentEducationBoardService.Api.csproj": {
+              "projectPath": "C:\\IBO_DotNet\\StudentEducationBoardService\\StudetEducationBoardService.Api\\StudentEducationBoardService.Api.csproj"
             }
           }
         }
