@@ -39,15 +39,6 @@ namespace StudentEducationBoardService.Api.Controllers
             return school;
         }
 
-        //// GET: api/School/5
-        //[HttpGet("{id}", Name = "GetById")]
-        //public SchoolDetailsDto GetById(int id)
-        //{
-        //    School schoolDetailsDto = _schoolService.GetSchool(id);
-        //    SchoolDetailsDto school = _mapper.Map<SchoolDetailsDto>(schoolDetailsDto);
-        //    return school;
-        //}
-
         // POST: api/School
         [HttpPost]
         public IActionResult Post([FromBody] CreateSchoolDto schoolToBeCreated)
