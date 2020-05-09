@@ -2,6 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <ProjectGuid>EAA761C2-213C-4236-9055-A64C2251F1FA</ProjectGuid>
   </PropertyGroup>
 
   <ItemGroup>
