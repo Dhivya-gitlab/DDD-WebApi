@@ -80,7 +80,7 @@ namespace StudentEducationBoardService.Services.Services
                 cachedSchoolsDetail = JsonSerializer.Serialize<List<School>>(schoolList.ToList());
                 var options = new DistributedCacheEntryOptions();
                 options.SetAbsoluteExpiration(DateTimeOffset.Now.AddMinutes(1));
-                await _redisCache.SetStringAsync("schools", cachedSchoolsDetail);
+                await _redisCache.SetStringAsync("schools", cachedSchoolsDetail, options);
             }
             JsonSerializerOptions opt = new JsonSerializerOptions()
             {
