@@ -5,6 +5,7 @@ namespace StudentEducationBoardService.Api.Validators
 {
     public class SchoolValidator : AbstractValidator<CreateSchoolDto>
     {
+        //Validate 
         public SchoolValidator()
         {
             RuleFor(x => x.SchoolName)
