@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
 namespace StudentEducationBoardService.Api.AppModels
-{
+{    
     public class CreateSchoolDto
     {
         [Required]
