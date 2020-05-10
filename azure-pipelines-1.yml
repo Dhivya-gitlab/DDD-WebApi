@@ -39,7 +39,6 @@ steps:
     scannerMode: 'MSBuild'
     projectKey: '4ec6f4b6fbf15738db246e3c9ae5ff863e341cea'
     projectName: 'SchoolBoard_Sonar_Proj'
-- script: dotnet-restore
 
 - task: SonarCloudAnalyze@1
   displayName: "Run Code Analysis"
