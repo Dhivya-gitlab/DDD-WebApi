@@ -5,7 +5,8 @@
 
 trigger:
 - master
-
+- Dev_Branch
+- SchoolBoard
 pool:
   vmImage: 'windows-latest'
 
@@ -16,7 +17,6 @@ variables:
 
 steps:
 - task: NuGetToolInstaller@1
-
 - task: NuGetCommand@2
   inputs:
     restoreSolution: '$(solution)'
@@ -39,3 +39,7 @@ steps:
     scannerMode: 'MSBuild'
     projectKey: '4ec6f4b6fbf15738db246e3c9ae5ff863e341cea'
     projectName: 'SchoolBoard_Sonar_Proj'
+- script: dotnet-restore
+
+- task: SonarCloudAnalyze@1
+  displayName: "Run Code Analysis"
