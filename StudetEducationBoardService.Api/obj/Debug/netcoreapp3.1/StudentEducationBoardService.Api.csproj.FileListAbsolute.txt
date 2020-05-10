@@ -146,9 +146,6 @@ C:\IBO_DotNet\StudentEducationBoardService\StudetEducationBoardService.Api\bin\D
 C:\IBO_DotNet\StudentEducationBoardService\StudetEducationBoardService.Api\bin\Debug\netcoreapp3.1\StudentEducationBoardService.Data.pdb
 C:\IBO_DotNet\StudentEducationBoardService\StudetEducationBoardService.Api\bin\Debug\netcoreapp3.1\StudentEducationBoardService.Domain.pdb
 C:\IBO_DotNet\StudentEducationBoardService\StudetEducationBoardService.Api\obj\Debug\netcoreapp3.1\StudentEducationBoardService.Api.csprojAssemblyReference.cache
-C:\IBO_DotNet\StudentEducationBoardService\StudetEducationBoardService.Api\obj\Debug\netcoreapp3.1\StudentEducationBoardService.Api.csproj.CoreCompileInputs.cache
-C:\IBO_DotNet\StudentEducationBoardService\StudetEducationBoardService.Api\obj\Debug\netcoreapp3.1\StudentEducationBoardService.Api.MvcApplicationPartsAssemblyInfo.cs
-C:\IBO_DotNet\StudentEducationBoardService\StudetEducationBoardService.Api\obj\Debug\netcoreapp3.1\StudentEducationBoardService.Api.MvcApplicationPartsAssemblyInfo.cache
 C:\IBO_DotNet\StudentEducationBoardService\StudetEducationBoardService.Api\obj\Debug\netcoreapp3.1\StudentEducationBoardService.Api.AssemblyInfoInputs.cache
 C:\IBO_DotNet\StudentEducationBoardService\StudetEducationBoardService.Api\obj\Debug\netcoreapp3.1\StudentEducationBoardService.Api.AssemblyInfo.cs
 C:\IBO_DotNet\StudentEducationBoardService\StudetEducationBoardService.Api\obj\Debug\netcoreapp3.1\StudentEducationBoardService.Api.RazorTargetAssemblyInfo.cache
@@ -158,3 +155,17 @@ C:\IBO_DotNet\StudentEducationBoardService\StudetEducationBoardService.Api\obj\D
 C:\IBO_DotNet\StudentEducationBoardService\StudetEducationBoardService.Api\obj\Debug\netcoreapp3.1\StudentEducationBoardService.Api.dll
 C:\IBO_DotNet\StudentEducationBoardService\StudetEducationBoardService.Api\obj\Debug\netcoreapp3.1\StudentEducationBoardService.Api.pdb
 C:\IBO_DotNet\StudentEducationBoardService\StudetEducationBoardService.Api\obj\Debug\netcoreapp3.1\StudentEducationBoardService.Api.genruntimeconfig.cache
+C:\IBO_DotNet\StudentEducationBoardService\StudetEducationBoardService.Api\bin\Debug\netcoreapp3.1\Connected Services\Application Insights\ConnectedService.json
+C:\IBO_DotNet\StudentEducationBoardService\StudetEducationBoardService.Api\bin\Debug\netcoreapp3.1\Microsoft.ApplicationInsights.dll
+C:\IBO_DotNet\StudentEducationBoardService\StudetEducationBoardService.Api\bin\Debug\netcoreapp3.1\Microsoft.ApplicationInsights.AspNetCore.dll
+C:\IBO_DotNet\StudentEducationBoardService\StudetEducationBoardService.Api\bin\Debug\netcoreapp3.1\Microsoft.AI.DependencyCollector.dll
+C:\IBO_DotNet\StudentEducationBoardService\StudetEducationBoardService.Api\bin\Debug\netcoreapp3.1\Microsoft.AI.EventCounterCollector.dll
+C:\IBO_DotNet\StudentEducationBoardService\StudetEducationBoardService.Api\bin\Debug\netcoreapp3.1\Microsoft.AI.PerfCounterCollector.dll
+C:\IBO_DotNet\StudentEducationBoardService\StudetEducationBoardService.Api\bin\Debug\netcoreapp3.1\Microsoft.AI.WindowsServer.dll
+C:\IBO_DotNet\StudentEducationBoardService\StudetEducationBoardService.Api\bin\Debug\netcoreapp3.1\Microsoft.AI.ServerTelemetryChannel.dll
+C:\IBO_DotNet\StudentEducationBoardService\StudetEducationBoardService.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DiagnosticAdapter.dll
+C:\IBO_DotNet\StudentEducationBoardService\StudetEducationBoardService.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.ApplicationInsights.dll
+C:\IBO_DotNet\StudentEducationBoardService\StudetEducationBoardService.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.PlatformAbstractions.dll
+C:\IBO_DotNet\StudentEducationBoardService\StudetEducationBoardService.Api\obj\Debug\netcoreapp3.1\StudentEducationBoardService.Api.csproj.CoreCompileInputs.cache
+C:\IBO_DotNet\StudentEducationBoardService\StudetEducationBoardService.Api\obj\Debug\netcoreapp3.1\StudentEducationBoardService.Api.MvcApplicationPartsAssemblyInfo.cs
+C:\IBO_DotNet\StudentEducationBoardService\StudetEducationBoardService.Api\obj\Debug\netcoreapp3.1\StudentEducationBoardService.Api.MvcApplicationPartsAssemblyInfo.cache
