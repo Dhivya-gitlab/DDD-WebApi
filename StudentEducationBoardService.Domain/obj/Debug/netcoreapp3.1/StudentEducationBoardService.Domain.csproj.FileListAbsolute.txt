@@ -6,3 +6,4 @@ C:\IBO_DotNet\StudentEducationBoardService\StudentEducationBoardService.Domain\o
 C:\IBO_DotNet\StudentEducationBoardService\StudentEducationBoardService.Domain\obj\Debug\netcoreapp3.1\StudentEducationBoardService.Domain.AssemblyInfo.cs
 C:\IBO_DotNet\StudentEducationBoardService\StudentEducationBoardService.Domain\obj\Debug\netcoreapp3.1\StudentEducationBoardService.Domain.dll
 C:\IBO_DotNet\StudentEducationBoardService\StudentEducationBoardService.Domain\obj\Debug\netcoreapp3.1\StudentEducationBoardService.Domain.pdb
+C:\IBO_DotNet\StudentEducationBoardService\StudentEducationBoardService.Domain\obj\Debug\netcoreapp3.1\StudentEducationBoardService.Domain.csprojAssemblyReference.cache
