@@ -1,4 +1,5 @@
-﻿using Microsoft.Extensions.Caching.Distributed;
+﻿using Abp.Extensions;
+using Microsoft.Extensions.Caching.Distributed;
 using StudentEducationBoardService.Domain;
 using StudentEducationBoardService.Domain.Models;
 using StudentEducationBoardService.Domain.Services;
@@ -29,6 +30,8 @@ namespace StudentEducationBoardService.Services.Services
             }
             schoolUnitOfWork.Repository.Add(createSchool);
             schoolUnitOfWork.Complete();
+            var response = AddSchoolDetailsToRedisCache();
+            response.Wait();
         }
 
         public void DeleteSchool(int schoolId)
@@ -39,6 +42,8 @@ namespace StudentEducationBoardService.Services.Services
             {
                 schoolUnitOfWork.Repository.Remove(toBeDeleted);
                 schoolUnitOfWork.Complete();
+                var response = AddSchoolDetailsToRedisCache();
+                response.Wait();
             }
         }
 
@@ -54,11 +59,7 @@ namespace StudentEducationBoardService.Services.Services
 
             if (cachedSchoolsDetail == null || string.IsNullOrEmpty(cachedSchoolsDetail))
             {
-                var schoolList = await schoolUnitOfWork.Repository.GetAll();
-                cachedSchoolsDetail = JsonSerializer.Serialize<List<School>>(schoolList.ToList());
-                var options = new DistributedCacheEntryOptions();
-                options.SetAbsoluteExpiration(DateTimeOffset.Now.AddMinutes(1));
-                await _redisCache.SetStringAsync("schools", cachedSchoolsDetail, options);
+                cachedSchoolsDetail = await AddSchoolDetailsToRedisCache();
             }
             JsonSerializerOptions opt = new JsonSerializerOptions()
             {
@@ -67,6 +68,21 @@ namespace StudentEducationBoardService.Services.Services
 
             var schoolListCol = JsonSerializer.Deserialize<List<School>>(cachedSchoolsDetail, opt);
             return schoolListCol.ToList();
+        }
+
+        private async Task<string> AddSchoolDetailsToRedisCache()
+        {
+            string cachedSchoolsDetail;
+            var schoolList = await schoolUnitOfWork.Repository.GetAll();
+            var options = new DistributedCacheEntryOptions();
+            cachedSchoolsDetail = JsonSerializer.Serialize<List<School>>(schoolList.ToList());
+
+            if (cachedSchoolsDetail != null)
+            {
+                options.SetAbsoluteExpiration(DateTimeOffset.Now.AddMinutes(1));
+                await _redisCache.SetStringAsync("schools", cachedSchoolsDetail, options);
+            }
+            return cachedSchoolsDetail;
         }
 
         public void UpdateSchool(int id, School updateSchool)
@@ -89,6 +105,8 @@ namespace StudentEducationBoardService.Services.Services
 
                 schoolUnitOfWork.Repository.Update(schoolToBeUpdated);
                 schoolUnitOfWork.Complete();
+                var response = AddSchoolDetailsToRedisCache();
+                response.Wait();
             }
         }
     }
