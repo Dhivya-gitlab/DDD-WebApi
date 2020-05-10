@@ -236,3 +236,14 @@ C:\IBO_DotNet\StudentEducationBoardService\StudentEducationBoardTest\obj\Debug\n
 C:\IBO_DotNet\StudentEducationBoardService\StudentEducationBoardTest\obj\Debug\netcoreapp3.1\StudentEducationBoardTest.dll
 C:\IBO_DotNet\StudentEducationBoardService\StudentEducationBoardTest\obj\Debug\netcoreapp3.1\StudentEducationBoardTest.pdb
 C:\IBO_DotNet\StudentEducationBoardService\StudentEducationBoardTest\obj\Debug\netcoreapp3.1\StudentEducationBoardTest.genruntimeconfig.cache
+C:\IBO_DotNet\StudentEducationBoardService\StudentEducationBoardTest\bin\Debug\netcoreapp3.1\Connected Services\Application Insights\ConnectedService.json
+C:\IBO_DotNet\StudentEducationBoardService\StudentEducationBoardTest\bin\Debug\netcoreapp3.1\Microsoft.ApplicationInsights.dll
+C:\IBO_DotNet\StudentEducationBoardService\StudentEducationBoardTest\bin\Debug\netcoreapp3.1\Microsoft.ApplicationInsights.AspNetCore.dll
+C:\IBO_DotNet\StudentEducationBoardService\StudentEducationBoardTest\bin\Debug\netcoreapp3.1\Microsoft.AI.DependencyCollector.dll
+C:\IBO_DotNet\StudentEducationBoardService\StudentEducationBoardTest\bin\Debug\netcoreapp3.1\Microsoft.AI.EventCounterCollector.dll
+C:\IBO_DotNet\StudentEducationBoardService\StudentEducationBoardTest\bin\Debug\netcoreapp3.1\Microsoft.AI.PerfCounterCollector.dll
+C:\IBO_DotNet\StudentEducationBoardService\StudentEducationBoardTest\bin\Debug\netcoreapp3.1\Microsoft.AI.WindowsServer.dll
+C:\IBO_DotNet\StudentEducationBoardService\StudentEducationBoardTest\bin\Debug\netcoreapp3.1\Microsoft.AI.ServerTelemetryChannel.dll
+C:\IBO_DotNet\StudentEducationBoardService\StudentEducationBoardTest\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DiagnosticAdapter.dll
+C:\IBO_DotNet\StudentEducationBoardService\StudentEducationBoardTest\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.ApplicationInsights.dll
+C:\IBO_DotNet\StudentEducationBoardService\StudentEducationBoardTest\bin\Debug\netcoreapp3.1\Microsoft.Extensions.PlatformAbstractions.dll
