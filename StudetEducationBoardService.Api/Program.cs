@@ -20,7 +20,16 @@ namespace StudentEducationBoardService.Api
             Host.CreateDefaultBuilder(args)
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
-                    webBuilder.UseStartup<Startup>();
+                    webBuilder.UseStartup<Startup>()
+                     .ConfigureLogging(
+                        builder =>
+                        {
+                            builder.AddApplicationInsights("4ec6f4b6fbf15738db246e3c9ae5ff863e341cea");
+
+                            builder.AddFilter<Microsoft.Extensions.Logging.ApplicationInsights.ApplicationInsightsLoggerProvider>
+                                             ("", LogLevel.Information);
+                        }
+                    );
                 });
     }
 }
