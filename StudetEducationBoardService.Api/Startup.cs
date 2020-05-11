@@ -6,6 +6,8 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.Logging;
+using StudentEducationBoardService.Api.Controllers;
 using StudentEducationBoardService.Data;
 using StudentEducationBoardService.Domain;
 using StudentEducationBoardService.Domain.Services;
@@ -14,7 +16,7 @@ using StudentEducationBoardService.Services.Services;
 namespace StudentEducationBoardService.Api
 {
     public class Startup
-    {
+    { 
         public Startup(IWebHostEnvironment evn, IConfiguration configuration)
         {
             HostEnvironment = evn;
@@ -45,12 +47,10 @@ namespace StudentEducationBoardService.Api
             {
                 options.Configuration = Configuration["Data:ConectionStrings:AzureRedisCache"];
             });
-
-            //services.AddScoped<ISchoolRepository, SchoolRepository>();
+                       
             services.AddScoped<ISchoolService, SchoolService>();
             services.AddScoped<IUnitOfWork, UnitOfWork>();
             services.AddControllers();
-            services.AddMvc();
             services.AddAutoMapper(typeof(Startup));
             services.AddSwaggerGen(c =>
             {
@@ -60,13 +60,13 @@ namespace StudentEducationBoardService.Api
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, StudentEducationBoardDbContext educationContext)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, StudentEducationBoardDbContext educationContext)//,Logger<SchoolController> _logger)
         {
             if (env.IsDevelopment())
             {
+                //_logger.LogInformation("Configuration for dev environment");
                 app.UseDeveloperExceptionPage();
             }
-
             //Enable middleware to serve generated swagger as a json endpoint
             app.UseSwagger();
 
