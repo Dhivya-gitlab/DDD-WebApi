@@ -13,7 +13,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StudentEducationBoardServic
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StudentEducationBoardService.Data", "StudentEducationBoardService.Data\StudentEducationBoardService.Data.csproj", "{FCDAE016-0D58-456F-8182-28DBB2BCF1F8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentEducationBoardTest", "StudentEducationBoardTest\StudentEducationBoardTest.csproj", "{D131631C-BAD4-44B1-B797-5B24A2744E5C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StudentEducationBoardTest", "StudentEducationBoardTest\StudentEducationBoardTest.csproj", "{D131631C-BAD4-44B1-B797-5B24A2744E5C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Client Project", "Client Project", "{4CAE5439-4B2E-4685-A11E-589AA7A22F2E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SchoolManagementSystem", "SchoolManagementSystem", "{725B18DA-1C69-4276-8642-6C6C313C8EA7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SchoolManagementSystem", "Client Project\SchoolManagementSystem\SchoolManagementSystem.csproj", "{9F7A5A8F-2DFA-4EBD-9C03-F7778C3AD5E6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,12 +47,18 @@ Global
 		{D131631C-BAD4-44B1-B797-5B24A2744E5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D131631C-BAD4-44B1-B797-5B24A2744E5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D131631C-BAD4-44B1-B797-5B24A2744E5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F7A5A8F-2DFA-4EBD-9C03-F7778C3AD5E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F7A5A8F-2DFA-4EBD-9C03-F7778C3AD5E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F7A5A8F-2DFA-4EBD-9C03-F7778C3AD5E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F7A5A8F-2DFA-4EBD-9C03-F7778C3AD5E6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{FCDAE016-0D58-456F-8182-28DBB2BCF1F8} = {C4A074DF-D0C5-42FB-8266-CC4CD764F2A1}
+		{725B18DA-1C69-4276-8642-6C6C313C8EA7} = {4CAE5439-4B2E-4685-A11E-589AA7A22F2E}
+		{9F7A5A8F-2DFA-4EBD-9C03-F7778C3AD5E6} = {725B18DA-1C69-4276-8642-6C6C313C8EA7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {371B0295-AEEA-447D-8735-B482DFB7C2E4}
