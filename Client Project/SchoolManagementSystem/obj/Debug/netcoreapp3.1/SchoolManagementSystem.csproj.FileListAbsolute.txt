@@ -1,0 +1,238 @@
+C:\IBO_SchoolManagement_System\SchoolManagementSystem\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\IBO_SchoolManagement_System\SchoolManagementSystem\bin\Debug\netcoreapp3.1\appsettings.json
+C:\IBO_SchoolManagement_System\SchoolManagementSystem\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\IBO_SchoolManagement_System\SchoolManagementSystem\bin\Debug\netcoreapp3.1\SchoolManagementSystem.exe
+C:\IBO_SchoolManagement_System\SchoolManagementSystem\bin\Debug\netcoreapp3.1\SchoolManagementSystem.deps.json
+C:\IBO_SchoolManagement_System\SchoolManagementSystem\bin\Debug\netcoreapp3.1\SchoolManagementSystem.runtimeconfig.json
+C:\IBO_SchoolManagement_System\SchoolManagementSystem\bin\Debug\netcoreapp3.1\SchoolManagementSystem.runtimeconfig.dev.json
+C:\IBO_SchoolManagement_System\SchoolManagementSystem\bin\Debug\netcoreapp3.1\SchoolManagementSystem.dll
+C:\IBO_SchoolManagement_System\SchoolManagementSystem\bin\Debug\netcoreapp3.1\SchoolManagementSystem.pdb
+C:\IBO_SchoolManagement_System\SchoolManagementSystem\bin\Debug\netcoreapp3.1\SchoolManagementSystem.Views.dll
+C:\IBO_SchoolManagement_System\SchoolManagementSystem\bin\Debug\netcoreapp3.1\SchoolManagementSystem.Views.pdb
+C:\IBO_SchoolManagement_System\SchoolManagementSystem\obj\Debug\netcoreapp3.1\SchoolManagementSystem.csprojAssemblyReference.cache
+C:\IBO_SchoolManagement_System\SchoolManagementSystem\obj\Debug\netcoreapp3.1\SchoolManagementSystem.RazorAssemblyInfo.cache
+C:\IBO_SchoolManagement_System\SchoolManagementSystem\obj\Debug\netcoreapp3.1\SchoolManagementSystem.RazorAssemblyInfo.cs
+C:\IBO_SchoolManagement_System\SchoolManagementSystem\obj\Debug\netcoreapp3.1\SchoolManagementSystem.AssemblyInfoInputs.cache
+C:\IBO_SchoolManagement_System\SchoolManagementSystem\obj\Debug\netcoreapp3.1\SchoolManagementSystem.AssemblyInfo.cs
+C:\IBO_SchoolManagement_System\SchoolManagementSystem\obj\Debug\netcoreapp3.1\SchoolManagementSystem.TagHelpers.input.cache
+C:\IBO_SchoolManagement_System\SchoolManagementSystem\obj\Debug\netcoreapp3.1\SchoolManagementSystem.TagHelpers.output.cache
+C:\IBO_SchoolManagement_System\SchoolManagementSystem\obj\Debug\netcoreapp3.1\SchoolManagementSystem.RazorCoreGenerate.cache
+C:\IBO_SchoolManagement_System\SchoolManagementSystem\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\IBO_SchoolManagement_System\SchoolManagementSystem\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\IBO_SchoolManagement_System\SchoolManagementSystem\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\IBO_SchoolManagement_System\SchoolManagementSystem\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\IBO_SchoolManagement_System\SchoolManagementSystem\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\IBO_SchoolManagement_System\SchoolManagementSystem\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\IBO_SchoolManagement_System\SchoolManagementSystem\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\IBO_SchoolManagement_System\SchoolManagementSystem\obj\Debug\netcoreapp3.1\SchoolManagementSystem.RazorTargetAssemblyInfo.cache
+C:\IBO_SchoolManagement_System\SchoolManagementSystem\obj\Debug\netcoreapp3.1\SchoolManagementSystem.RazorTargetAssemblyInfo.cs
+C:\IBO_SchoolManagement_System\SchoolManagementSystem\obj\Debug\netcoreapp3.1\SchoolManagementSystem.Views.pdb
+C:\IBO_SchoolManagement_System\SchoolManagementSystem\obj\Debug\netcoreapp3.1\staticwebassets\SchoolManagementSystem.StaticWebAssets.Manifest.cache
+C:\IBO_SchoolManagement_System\SchoolManagementSystem\obj\Debug\netcoreapp3.1\staticwebassets\SchoolManagementSystem.StaticWebAssets.xml
+C:\IBO_SchoolManagement_System\SchoolManagementSystem\obj\Debug\netcoreapp3.1\SchoolManagementSystem.dll
+C:\IBO_SchoolManagement_System\SchoolManagementSystem\obj\Debug\netcoreapp3.1\SchoolManagementSystem.pdb
+C:\IBO_SchoolManagement_System\SchoolManagementSystem\obj\Debug\netcoreapp3.1\SchoolManagementSystem.genruntimeconfig.cache
+C:\IBO_SchoolManagement_System\SchoolManagementSystem\obj\Debug\netcoreapp3.1\SchoolManagementSystem.csproj.CopyComplete
+C:\IBO_SchoolManagement_System\SchoolManagementSystem\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+C:\IBO_SchoolManagement_System\SchoolManagementSystem\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+C:\IBO_SchoolManagement_System\SchoolManagementSystem\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+C:\IBO_SchoolManagement_System\SchoolManagementSystem\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\IBO_SchoolManagement_System\SchoolManagementSystem\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+C:\IBO_SchoolManagement_System\SchoolManagementSystem\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
+C:\IBO_SchoolManagement_System\SchoolManagementSystem\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\IBO_SchoolManagement_System\SchoolManagementSystem\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:\IBO_SchoolManagement_System\SchoolManagementSystem\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\IBO_SchoolManagement_System\SchoolManagementSystem\bin\Debug\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
+C:\IBO_SchoolManagement_System\SchoolManagementSystem\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\IBO_SchoolManagement_System\SchoolManagementSystem\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\IBO_SchoolManagement_System\SchoolManagementSystem\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\IBO_SchoolManagement_System\SchoolManagementSystem\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\IBO_SchoolManagement_System\SchoolManagementSystem\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\IBO_SchoolManagement_System\SchoolManagementSystem\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+C:\IBO_SchoolManagement_System\SchoolManagementSystem\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
+C:\IBO_SchoolManagement_System\SchoolManagementSystem\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
+C:\IBO_SchoolManagement_System\SchoolManagementSystem\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
+C:\IBO_SchoolManagement_System\SchoolManagementSystem\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
+C:\IBO_SchoolManagement_System\SchoolManagementSystem\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
+C:\IBO_SchoolManagement_System\SchoolManagementSystem\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+C:\IBO_SchoolManagement_System\SchoolManagementSystem\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+C:\IBO_SchoolManagement_System\SchoolManagementSystem\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+C:\IBO_SchoolManagement_System\SchoolManagementSystem\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+C:\IBO_SchoolManagement_System\SchoolManagementSystem\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+C:\IBO_SchoolManagement_System\SchoolManagementSystem\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+C:\IBO_SchoolManagement_System\SchoolManagementSystem\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+C:\IBO_SchoolManagement_System\SchoolManagementSystem\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+C:\IBO_SchoolManagement_System\SchoolManagementSystem\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\IBO_SchoolManagement_System\SchoolManagementSystem\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+C:\IBO_SchoolManagement_System\SchoolManagementSystem\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+C:\IBO_SchoolManagement_System\SchoolManagementSystem\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\IBO_SchoolManagement_System\SchoolManagementSystem\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\IBO_SchoolManagement_System\SchoolManagementSystem\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\IBO_SchoolManagement_System\SchoolManagementSystem\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\IBO_SchoolManagement_System\SchoolManagementSystem\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\IBO_SchoolManagement_System\SchoolManagementSystem\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\IBO_SchoolManagement_System\SchoolManagementSystem\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\IBO_SchoolManagement_System\SchoolManagementSystem\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\IBO_SchoolManagement_System\SchoolManagementSystem\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\IBO_SchoolManagement_System\SchoolManagementSystem\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\IBO_SchoolManagement_System\SchoolManagementSystem\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\IBO_SchoolManagement_System\SchoolManagementSystem\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\IBO_SchoolManagement_System\SchoolManagementSystem\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\IBO_SchoolManagement_System\SchoolManagementSystem\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\IBO_SchoolManagement_System\SchoolManagementSystem\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\IBO_SchoolManagement_System\SchoolManagementSystem\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\IBO_SchoolManagement_System\SchoolManagementSystem\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\IBO_SchoolManagement_System\SchoolManagementSystem\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\IBO_SchoolManagement_System\SchoolManagementSystem\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\IBO_SchoolManagement_System\SchoolManagementSystem\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\IBO_SchoolManagement_System\SchoolManagementSystem\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\IBO_SchoolManagement_System\SchoolManagementSystem\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\IBO_SchoolManagement_System\SchoolManagementSystem\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\IBO_SchoolManagement_System\SchoolManagementSystem\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\IBO_SchoolManagement_System\SchoolManagementSystem\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\IBO_SchoolManagement_System\SchoolManagementSystem\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\IBO_SchoolManagement_System\SchoolManagementSystem\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\IBO_SchoolManagement_System\SchoolManagementSystem\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\IBO_SchoolManagement_System\SchoolManagementSystem\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\IBO_SchoolManagement_System\SchoolManagementSystem\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\IBO_SchoolManagement_System\SchoolManagementSystem\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\IBO_SchoolManagement_System\SchoolManagementSystem\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\IBO_SchoolManagement_System\SchoolManagementSystem\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\IBO_SchoolManagement_System\SchoolManagementSystem\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\IBO_SchoolManagement_System\SchoolManagementSystem\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\IBO_SchoolManagement_System\SchoolManagementSystem\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\IBO_SchoolManagement_System\SchoolManagementSystem\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\IBO_SchoolManagement_System\SchoolManagementSystem\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\IBO_SchoolManagement_System\SchoolManagementSystem\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\IBO_SchoolManagement_System\SchoolManagementSystem\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\IBO_SchoolManagement_System\SchoolManagementSystem\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\IBO_SchoolManagement_System\SchoolManagementSystem\bin\Debug\netcoreapp3.1\System.Net.Http.Formatting.dll
+C:\IBO_SchoolManagement_System\SchoolManagementSystem\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+C:\IBO_SchoolManagement_System\SchoolManagementSystem\obj\Debug\netcoreapp3.1\Razor\Views\School\Index.cshtml.g.cs
+C:\IBO_SchoolManagement_System\SchoolManagementSystem\obj\Debug\netcoreapp3.1\Razor\Views\School\Create.cshtml.g.cs
+C:\IBO_SchoolManagement_System\SchoolManagementSystem\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
+C:\IBO_SchoolManagement_System\SchoolManagementSystem\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+C:\IBO_SchoolManagement_System\SchoolManagementSystem\obj\Debug\netcoreapp3.1\SchoolManagementSystem.csproj.CoreCompileInputs.cache
+C:\IBO_SchoolManagement_System\SchoolManagementSystem\obj\Debug\netcoreapp3.1\SchoolManagementSystem.MvcApplicationPartsAssemblyInfo.cache
+C:\IBO_SchoolManagement_System\SchoolManagementSystem\bin\Debug\netcoreapp3.1\AspNetCore.ServiceRegistration.Dynamic.dll
+C:\IBO_SchoolManagement_System\SchoolManagementSystem\obj\Debug\netcoreapp3.1\Razor\Views\School\Delete.cshtml.g.cs
+C:\IBO_SchoolManagement_System\SchoolManagementSystem\obj\Debug\netcoreapp3.1\Razor\Views\School\Edit.cshtml.g.cs
+C:\IBO_DotNet\StudentEducationBoardService\Client Project\SchoolManagementSystem\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\IBO_DotNet\StudentEducationBoardService\Client Project\SchoolManagementSystem\bin\Debug\netcoreapp3.1\appsettings.json
+C:\IBO_DotNet\StudentEducationBoardService\Client Project\SchoolManagementSystem\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\IBO_DotNet\StudentEducationBoardService\Client Project\SchoolManagementSystem\bin\Debug\netcoreapp3.1\SchoolManagementSystem.exe
+C:\IBO_DotNet\StudentEducationBoardService\Client Project\SchoolManagementSystem\bin\Debug\netcoreapp3.1\SchoolManagementSystem.deps.json
+C:\IBO_DotNet\StudentEducationBoardService\Client Project\SchoolManagementSystem\bin\Debug\netcoreapp3.1\SchoolManagementSystem.runtimeconfig.json
+C:\IBO_DotNet\StudentEducationBoardService\Client Project\SchoolManagementSystem\bin\Debug\netcoreapp3.1\SchoolManagementSystem.runtimeconfig.dev.json
+C:\IBO_DotNet\StudentEducationBoardService\Client Project\SchoolManagementSystem\bin\Debug\netcoreapp3.1\SchoolManagementSystem.dll
+C:\IBO_DotNet\StudentEducationBoardService\Client Project\SchoolManagementSystem\bin\Debug\netcoreapp3.1\SchoolManagementSystem.pdb
+C:\IBO_DotNet\StudentEducationBoardService\Client Project\SchoolManagementSystem\bin\Debug\netcoreapp3.1\SchoolManagementSystem.Views.dll
+C:\IBO_DotNet\StudentEducationBoardService\Client Project\SchoolManagementSystem\bin\Debug\netcoreapp3.1\SchoolManagementSystem.Views.pdb
+C:\IBO_DotNet\StudentEducationBoardService\Client Project\SchoolManagementSystem\bin\Debug\netcoreapp3.1\AspNetCore.ServiceRegistration.Dynamic.dll
+C:\IBO_DotNet\StudentEducationBoardService\Client Project\SchoolManagementSystem\bin\Debug\netcoreapp3.1\System.Net.Http.Formatting.dll
+C:\IBO_DotNet\StudentEducationBoardService\Client Project\SchoolManagementSystem\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+C:\IBO_DotNet\StudentEducationBoardService\Client Project\SchoolManagementSystem\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+C:\IBO_DotNet\StudentEducationBoardService\Client Project\SchoolManagementSystem\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+C:\IBO_DotNet\StudentEducationBoardService\Client Project\SchoolManagementSystem\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\IBO_DotNet\StudentEducationBoardService\Client Project\SchoolManagementSystem\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+C:\IBO_DotNet\StudentEducationBoardService\Client Project\SchoolManagementSystem\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
+C:\IBO_DotNet\StudentEducationBoardService\Client Project\SchoolManagementSystem\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
+C:\IBO_DotNet\StudentEducationBoardService\Client Project\SchoolManagementSystem\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+C:\IBO_DotNet\StudentEducationBoardService\Client Project\SchoolManagementSystem\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\IBO_DotNet\StudentEducationBoardService\Client Project\SchoolManagementSystem\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:\IBO_DotNet\StudentEducationBoardService\Client Project\SchoolManagementSystem\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\IBO_DotNet\StudentEducationBoardService\Client Project\SchoolManagementSystem\bin\Debug\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
+C:\IBO_DotNet\StudentEducationBoardService\Client Project\SchoolManagementSystem\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\IBO_DotNet\StudentEducationBoardService\Client Project\SchoolManagementSystem\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\IBO_DotNet\StudentEducationBoardService\Client Project\SchoolManagementSystem\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\IBO_DotNet\StudentEducationBoardService\Client Project\SchoolManagementSystem\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\IBO_DotNet\StudentEducationBoardService\Client Project\SchoolManagementSystem\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\IBO_DotNet\StudentEducationBoardService\Client Project\SchoolManagementSystem\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+C:\IBO_DotNet\StudentEducationBoardService\Client Project\SchoolManagementSystem\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+C:\IBO_DotNet\StudentEducationBoardService\Client Project\SchoolManagementSystem\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
+C:\IBO_DotNet\StudentEducationBoardService\Client Project\SchoolManagementSystem\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
+C:\IBO_DotNet\StudentEducationBoardService\Client Project\SchoolManagementSystem\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
+C:\IBO_DotNet\StudentEducationBoardService\Client Project\SchoolManagementSystem\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
+C:\IBO_DotNet\StudentEducationBoardService\Client Project\SchoolManagementSystem\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
+C:\IBO_DotNet\StudentEducationBoardService\Client Project\SchoolManagementSystem\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+C:\IBO_DotNet\StudentEducationBoardService\Client Project\SchoolManagementSystem\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+C:\IBO_DotNet\StudentEducationBoardService\Client Project\SchoolManagementSystem\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+C:\IBO_DotNet\StudentEducationBoardService\Client Project\SchoolManagementSystem\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+C:\IBO_DotNet\StudentEducationBoardService\Client Project\SchoolManagementSystem\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+C:\IBO_DotNet\StudentEducationBoardService\Client Project\SchoolManagementSystem\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+C:\IBO_DotNet\StudentEducationBoardService\Client Project\SchoolManagementSystem\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+C:\IBO_DotNet\StudentEducationBoardService\Client Project\SchoolManagementSystem\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+C:\IBO_DotNet\StudentEducationBoardService\Client Project\SchoolManagementSystem\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\IBO_DotNet\StudentEducationBoardService\Client Project\SchoolManagementSystem\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+C:\IBO_DotNet\StudentEducationBoardService\Client Project\SchoolManagementSystem\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+C:\IBO_DotNet\StudentEducationBoardService\Client Project\SchoolManagementSystem\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\IBO_DotNet\StudentEducationBoardService\Client Project\SchoolManagementSystem\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\IBO_DotNet\StudentEducationBoardService\Client Project\SchoolManagementSystem\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\IBO_DotNet\StudentEducationBoardService\Client Project\SchoolManagementSystem\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\IBO_DotNet\StudentEducationBoardService\Client Project\SchoolManagementSystem\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\IBO_DotNet\StudentEducationBoardService\Client Project\SchoolManagementSystem\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\IBO_DotNet\StudentEducationBoardService\Client Project\SchoolManagementSystem\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\IBO_DotNet\StudentEducationBoardService\Client Project\SchoolManagementSystem\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\IBO_DotNet\StudentEducationBoardService\Client Project\SchoolManagementSystem\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\IBO_DotNet\StudentEducationBoardService\Client Project\SchoolManagementSystem\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\IBO_DotNet\StudentEducationBoardService\Client Project\SchoolManagementSystem\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\IBO_DotNet\StudentEducationBoardService\Client Project\SchoolManagementSystem\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\IBO_DotNet\StudentEducationBoardService\Client Project\SchoolManagementSystem\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\IBO_DotNet\StudentEducationBoardService\Client Project\SchoolManagementSystem\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\IBO_DotNet\StudentEducationBoardService\Client Project\SchoolManagementSystem\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\IBO_DotNet\StudentEducationBoardService\Client Project\SchoolManagementSystem\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\IBO_DotNet\StudentEducationBoardService\Client Project\SchoolManagementSystem\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\IBO_DotNet\StudentEducationBoardService\Client Project\SchoolManagementSystem\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\IBO_DotNet\StudentEducationBoardService\Client Project\SchoolManagementSystem\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\IBO_DotNet\StudentEducationBoardService\Client Project\SchoolManagementSystem\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\IBO_DotNet\StudentEducationBoardService\Client Project\SchoolManagementSystem\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\IBO_DotNet\StudentEducationBoardService\Client Project\SchoolManagementSystem\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\IBO_DotNet\StudentEducationBoardService\Client Project\SchoolManagementSystem\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\IBO_DotNet\StudentEducationBoardService\Client Project\SchoolManagementSystem\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\IBO_DotNet\StudentEducationBoardService\Client Project\SchoolManagementSystem\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\IBO_DotNet\StudentEducationBoardService\Client Project\SchoolManagementSystem\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\IBO_DotNet\StudentEducationBoardService\Client Project\SchoolManagementSystem\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\IBO_DotNet\StudentEducationBoardService\Client Project\SchoolManagementSystem\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\IBO_DotNet\StudentEducationBoardService\Client Project\SchoolManagementSystem\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\IBO_DotNet\StudentEducationBoardService\Client Project\SchoolManagementSystem\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\IBO_DotNet\StudentEducationBoardService\Client Project\SchoolManagementSystem\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\IBO_DotNet\StudentEducationBoardService\Client Project\SchoolManagementSystem\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\IBO_DotNet\StudentEducationBoardService\Client Project\SchoolManagementSystem\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\IBO_DotNet\StudentEducationBoardService\Client Project\SchoolManagementSystem\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\IBO_DotNet\StudentEducationBoardService\Client Project\SchoolManagementSystem\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\IBO_DotNet\StudentEducationBoardService\Client Project\SchoolManagementSystem\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\IBO_DotNet\StudentEducationBoardService\Client Project\SchoolManagementSystem\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\IBO_DotNet\StudentEducationBoardService\Client Project\SchoolManagementSystem\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\IBO_DotNet\StudentEducationBoardService\Client Project\SchoolManagementSystem\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\IBO_DotNet\StudentEducationBoardService\Client Project\SchoolManagementSystem\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\IBO_DotNet\StudentEducationBoardService\Client Project\SchoolManagementSystem\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\IBO_DotNet\StudentEducationBoardService\Client Project\SchoolManagementSystem\obj\Debug\netcoreapp3.1\SchoolManagementSystem.csprojAssemblyReference.cache
+C:\IBO_DotNet\StudentEducationBoardService\Client Project\SchoolManagementSystem\obj\Debug\netcoreapp3.1\SchoolManagementSystem.csproj.CoreCompileInputs.cache
+C:\IBO_DotNet\StudentEducationBoardService\Client Project\SchoolManagementSystem\obj\Debug\netcoreapp3.1\SchoolManagementSystem.MvcApplicationPartsAssemblyInfo.cache
+C:\IBO_DotNet\StudentEducationBoardService\Client Project\SchoolManagementSystem\obj\Debug\netcoreapp3.1\SchoolManagementSystem.RazorAssemblyInfo.cache
+C:\IBO_DotNet\StudentEducationBoardService\Client Project\SchoolManagementSystem\obj\Debug\netcoreapp3.1\SchoolManagementSystem.RazorAssemblyInfo.cs
+C:\IBO_DotNet\StudentEducationBoardService\Client Project\SchoolManagementSystem\obj\Debug\netcoreapp3.1\SchoolManagementSystem.AssemblyInfoInputs.cache
+C:\IBO_DotNet\StudentEducationBoardService\Client Project\SchoolManagementSystem\obj\Debug\netcoreapp3.1\SchoolManagementSystem.AssemblyInfo.cs
+C:\IBO_DotNet\StudentEducationBoardService\Client Project\SchoolManagementSystem\obj\Debug\netcoreapp3.1\SchoolManagementSystem.TagHelpers.input.cache
+C:\IBO_DotNet\StudentEducationBoardService\Client Project\SchoolManagementSystem\obj\Debug\netcoreapp3.1\SchoolManagementSystem.TagHelpers.output.cache
+C:\IBO_DotNet\StudentEducationBoardService\Client Project\SchoolManagementSystem\obj\Debug\netcoreapp3.1\SchoolManagementSystem.RazorCoreGenerate.cache
+C:\IBO_DotNet\StudentEducationBoardService\Client Project\SchoolManagementSystem\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\IBO_DotNet\StudentEducationBoardService\Client Project\SchoolManagementSystem\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\IBO_DotNet\StudentEducationBoardService\Client Project\SchoolManagementSystem\obj\Debug\netcoreapp3.1\Razor\Views\School\Create.cshtml.g.cs
+C:\IBO_DotNet\StudentEducationBoardService\Client Project\SchoolManagementSystem\obj\Debug\netcoreapp3.1\Razor\Views\School\Delete.cshtml.g.cs
+C:\IBO_DotNet\StudentEducationBoardService\Client Project\SchoolManagementSystem\obj\Debug\netcoreapp3.1\Razor\Views\School\Edit.cshtml.g.cs
+C:\IBO_DotNet\StudentEducationBoardService\Client Project\SchoolManagementSystem\obj\Debug\netcoreapp3.1\Razor\Views\School\Index.cshtml.g.cs
+C:\IBO_DotNet\StudentEducationBoardService\Client Project\SchoolManagementSystem\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\IBO_DotNet\StudentEducationBoardService\Client Project\SchoolManagementSystem\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\IBO_DotNet\StudentEducationBoardService\Client Project\SchoolManagementSystem\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\IBO_DotNet\StudentEducationBoardService\Client Project\SchoolManagementSystem\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\IBO_DotNet\StudentEducationBoardService\Client Project\SchoolManagementSystem\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\IBO_DotNet\StudentEducationBoardService\Client Project\SchoolManagementSystem\obj\Debug\netcoreapp3.1\SchoolManagementSystem.RazorTargetAssemblyInfo.cache
+C:\IBO_DotNet\StudentEducationBoardService\Client Project\SchoolManagementSystem\obj\Debug\netcoreapp3.1\SchoolManagementSystem.RazorTargetAssemblyInfo.cs
+C:\IBO_DotNet\StudentEducationBoardService\Client Project\SchoolManagementSystem\obj\Debug\netcoreapp3.1\SchoolManagementSystem.Views.pdb
+C:\IBO_DotNet\StudentEducationBoardService\Client Project\SchoolManagementSystem\obj\Debug\netcoreapp3.1\SchoolManagementSystem.csproj.CopyComplete
+C:\IBO_DotNet\StudentEducationBoardService\Client Project\SchoolManagementSystem\obj\Debug\netcoreapp3.1\staticwebassets\SchoolManagementSystem.StaticWebAssets.Manifest.cache
+C:\IBO_DotNet\StudentEducationBoardService\Client Project\SchoolManagementSystem\obj\Debug\netcoreapp3.1\staticwebassets\SchoolManagementSystem.StaticWebAssets.xml
+C:\IBO_DotNet\StudentEducationBoardService\Client Project\SchoolManagementSystem\obj\Debug\netcoreapp3.1\SchoolManagementSystem.dll
+C:\IBO_DotNet\StudentEducationBoardService\Client Project\SchoolManagementSystem\obj\Debug\netcoreapp3.1\SchoolManagementSystem.pdb
+C:\IBO_DotNet\StudentEducationBoardService\Client Project\SchoolManagementSystem\obj\Debug\netcoreapp3.1\SchoolManagementSystem.genruntimeconfig.cache
