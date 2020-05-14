@@ -1,5 +1,6 @@
 
 using AutoMapper;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
@@ -57,6 +58,16 @@ namespace StudentEducationBoardService.Api
                 c.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo { Title = "School Education Board", Version = "v1" });
             });
             services.AddApplicationInsightsTelemetry();
+            // 1. Add Authentication Services
+            services.AddAuthentication(options =>
+            {
+                options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+                options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+            }).AddJwtBearer(options =>
+            {
+                options.Authority = "https://dhivya-gitlab.auth0.com/";
+                options.Audience = "https://localhost:44341";
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -69,7 +80,8 @@ namespace StudentEducationBoardService.Api
             }
             //Enable middleware to serve generated swagger as a json endpoint
             app.UseSwagger();
-
+            // 2. Enable authentication middleware
+            app.UseAuthentication();
             //Enable middleware to server swagger-ui
             app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "School Education Board"));
 

@@ -166,6 +166,13 @@ C:\IBO_DotNet\StudentEducationBoardService\StudetEducationBoardService.Api\bin\D
 C:\IBO_DotNet\StudentEducationBoardService\StudetEducationBoardService.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DiagnosticAdapter.dll
 C:\IBO_DotNet\StudentEducationBoardService\StudetEducationBoardService.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.ApplicationInsights.dll
 C:\IBO_DotNet\StudentEducationBoardService\StudetEducationBoardService.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.PlatformAbstractions.dll
+C:\IBO_DotNet\StudentEducationBoardService\StudetEducationBoardService.Api\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\IBO_DotNet\StudentEducationBoardService\StudetEducationBoardService.Api\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\IBO_DotNet\StudentEducationBoardService\StudetEducationBoardService.Api\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\IBO_DotNet\StudentEducationBoardService\StudetEducationBoardService.Api\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\IBO_DotNet\StudentEducationBoardService\StudetEducationBoardService.Api\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\IBO_DotNet\StudentEducationBoardService\StudetEducationBoardService.Api\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\IBO_DotNet\StudentEducationBoardService\StudetEducationBoardService.Api\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
 C:\IBO_DotNet\StudentEducationBoardService\StudetEducationBoardService.Api\obj\Debug\netcoreapp3.1\StudentEducationBoardService.Api.csproj.CoreCompileInputs.cache
 C:\IBO_DotNet\StudentEducationBoardService\StudetEducationBoardService.Api\obj\Debug\netcoreapp3.1\StudentEducationBoardService.Api.MvcApplicationPartsAssemblyInfo.cs
 C:\IBO_DotNet\StudentEducationBoardService\StudetEducationBoardService.Api\obj\Debug\netcoreapp3.1\StudentEducationBoardService.Api.MvcApplicationPartsAssemblyInfo.cache

@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using StudentEducationBoardService.Api.AppModels;
@@ -12,6 +13,7 @@ namespace StudentEducationBoardService.Api.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class SchoolController : ControllerBase
     {
         private readonly ISchoolService _schoolService;
