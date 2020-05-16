@@ -27,12 +27,13 @@ namespace SchoolManagementSystem
 
             services.AddHttpClient("SchoolBoardApi", c =>
             {
-                c.BaseAddress = new Uri("https://studenteducationboardserviceapi20200504194649.azurewebsites.net/api/");
+                c.BaseAddress = new Uri("https://localhost:44301/api/School");// new Uri("https://studenteducationboardserviceapi20200504194649.azurewebsites.net/api/");
                 c.DefaultRequestHeaders.Add("Accept", "application/json");
                 c.DefaultRequestHeaders.Add("User-Agent", "HttpClientFactory-Sample");
             });
             
             services.AddScoped<ISchoolService, SchoolBoardService>();
+            services.AddScoped<ServiceBusSender>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

@@ -11,9 +11,10 @@ using System.Threading.Tasks;
 
 namespace StudentEducationBoardService.Api.Controllers
 {
+    [ApiVersion("1.0")]
     [Route("api/[controller]")]
     [ApiController]
-    [Authorize]
+    //[Authorize]
     public class SchoolController : ControllerBase
     {
         private readonly ISchoolService _schoolService;
