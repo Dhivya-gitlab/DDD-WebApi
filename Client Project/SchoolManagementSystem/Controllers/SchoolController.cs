@@ -15,10 +15,12 @@ namespace SchoolManagementSystem.Controllers
     public class SchoolController : Controller
     {
         private readonly ISchoolService _schoolService;
+        private readonly ServiceBusSender _serviceBusSender;
         public List<SchoolDetailsViewModel> SchoolDetailsList { get; private set; }
-        public SchoolController(ISchoolService schoolService)
+        public SchoolController(ISchoolService schoolService, ServiceBusSender serviceSender)
         {
             _schoolService = schoolService;
+            _serviceBusSender = serviceSender;
         }
 
         public async void OnGetAsync()
@@ -56,16 +58,28 @@ namespace SchoolManagementSystem.Controllers
         // POST: School/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create(CreateSchoolViewModel schoolModel)
+        public async Task<ActionResult> Create(CreateSchoolViewModel schoolModel)
         {
             try
             {
                 if (ModelState.IsValid)
                 {
-                    _schoolService.CreateSchoolAsync(schoolModel);
+                    // _schoolService.CreateSchoolAsync(schoolModel);
+
+                    // Send this to the bus for the other services
+                    await _serviceBusSender.SendMessage(new SchoolDetailsViewModel
+                    {
+                        SchoolName = schoolModel.SchoolName,
+                        Country = schoolModel.Country,
+                        CommunicationLanguage = schoolModel.CommunicationLanguage,
+                        Program = schoolModel.Program,
+                        User = schoolModel.User,
+                        AssessmentPeriod = schoolModel.AssessmentPeriod
+                    });
                     return RedirectToAction("Index");
                 }
                 ModelState.AddModelError(string.Empty, "Server error.");
+
                 return View(schoolModel);
             }
             catch
